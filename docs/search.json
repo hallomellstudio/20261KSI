@@ -1,0 +1,979 @@
+[
+  {
+    "objectID": "tugas.html",
+    "href": "tugas.html",
+    "title": "Tugas",
+    "section": "",
+    "text": "Gunakan kasus organisasi fiktif. Buat dokumen maksimal empat halaman yang berisi:\n\nbatas sistem dan proses penting;\ndaftar aset beserta pemiliknya;\ntujuan keamanan per aset;\nlima skenario risiko;\nkontrol yang sudah tersedia dan bukti yang masih diperlukan."
+  },
+  {
+    "objectID": "tugas.html#tugas-1-peta-aset-dan-risiko",
+    "href": "tugas.html#tugas-1-peta-aset-dan-risiko",
+    "title": "Tugas",
+    "section": "",
+    "text": "Gunakan kasus organisasi fiktif. Buat dokumen maksimal empat halaman yang berisi:\n\nbatas sistem dan proses penting;\ndaftar aset beserta pemiliknya;\ntujuan keamanan per aset;\nlima skenario risiko;\nkontrol yang sudah tersedia dan bukti yang masih diperlukan."
+  },
+  {
+    "objectID": "tugas.html#tugas-2-rancangan-kontrol",
+    "href": "tugas.html#tugas-2-rancangan-kontrol",
+    "title": "Tugas",
+    "section": "Tugas 2 · Rancangan kontrol",
+    "text": "Tugas 2 · Rancangan kontrol\nPilih satu skenario risiko dan susun rancangan kontrol berlapis yang mencakup manusia, proses, dan teknologi. Jelaskan fungsi pencegahan, deteksi, respons, serta pemulihan. Sertakan diagram tingkat tinggi dan risiko residual."
+  },
+  {
+    "objectID": "tugas.html#tugas-3-playbook-respons",
+    "href": "tugas.html#tugas-3-playbook-respons",
+    "title": "Tugas",
+    "section": "Tugas 3 · Playbook respons",
+    "text": "Tugas 3 · Playbook respons\nBuat playbook untuk satu insiden fiktif. Sertakan kriteria aktivasi, tingkat keparahan, peran, alur komunikasi, keputusan pembatasan dampak, kebutuhan bukti, pemulihan, dan evaluasi setelah kejadian."
+  },
+  {
+    "objectID": "tugas.html#format-pengumpulan",
+    "href": "tugas.html#format-pengumpulan",
+    "title": "Tugas",
+    "section": "Format pengumpulan",
+    "text": "Format pengumpulan\n\nGunakan nama berkas KELAS_NIM_JENISTUGAS.pdf.\nCantumkan sumber konsep, data, gambar, dan bantuan teknologi.\nJangan memasukkan kredensial, alamat sistem nyata, data personal, atau detail sensitif.\nGunakan hanya studi kasus dan lingkungan yang ditetapkan dosen.\n\n\n\n\n\n\n\nPentingTidak ada pengujian tanpa izin\n\n\n\nTugas ini tidak meminta mahasiswa memindai, mengeksploitasi, mengakses, atau mengganggu sistem nyata. Jika suatu aktivitas teknis tidak tercantum dalam ruang lingkup laboratorium, aktivitas tersebut tidak dilakukan."
+  },
+  {
+    "objectID": "rubrik.html",
+    "href": "rubrik.html",
+    "title": "Rubrik Penilaian",
+    "section": "",
+    "text": "Kriteria\nBobot\nSangat baik\nCukup\nPerlu perbaikan\n\n\n\n\nRuang lingkup dan etika\n10%\nBatas, izin, sensitivitas, dan keterbatasan jelas\nAda bagian yang belum rinci\nIzin atau batas praktik tidak jelas\n\n\nAset dan konteks\n10%\nAset, pemilik, data, dan dependensi konsisten\nCukup lengkap\nBanyak aset penting terlewat\n\n\nAnalisis risiko\n20%\nSkenario, bukti, dampak, dan prioritas kuat\nLogis tetapi bukti terbatas\nHanya berupa daftar ancaman/kelemahan\n\n\nEvaluasi kontrol\n15%\nDesain dan efektivitas kontrol dinilai dengan bukti\nPenilaian cukup\nKlaim kontrol tidak dapat ditelusuri\n\n\nRekomendasi\n20%\nProporsional, berlapis, dan terkait langsung dengan risiko\nSebagian besar relevan\nUmum atau tidak menjawab risiko\n\n\nRespons dan pemulihan\n10%\nPeran, deteksi, respons, RTO/RPO, dan pembelajaran jelas\nAda elemen yang kurang\nSulit dijalankan atau diuji\n\n\nPeta jalan dan KPI\n10%\nPrioritas, pemilik, waktu, ukuran, dan residual risk jelas\nRencana cukup\nTidak operasional\n\n\nKomunikasi\n5%\nRingkas, akurat, dan tidak membocorkan data sensitif\nCukup dipahami\nSulit diikuti atau tidak aman dipublikasikan\n\n\nTotal\n100%"
+  },
+  {
+    "objectID": "rubrik.html#rubrik-proyek-akhir",
+    "href": "rubrik.html#rubrik-proyek-akhir",
+    "title": "Rubrik Penilaian",
+    "section": "",
+    "text": "Kriteria\nBobot\nSangat baik\nCukup\nPerlu perbaikan\n\n\n\n\nRuang lingkup dan etika\n10%\nBatas, izin, sensitivitas, dan keterbatasan jelas\nAda bagian yang belum rinci\nIzin atau batas praktik tidak jelas\n\n\nAset dan konteks\n10%\nAset, pemilik, data, dan dependensi konsisten\nCukup lengkap\nBanyak aset penting terlewat\n\n\nAnalisis risiko\n20%\nSkenario, bukti, dampak, dan prioritas kuat\nLogis tetapi bukti terbatas\nHanya berupa daftar ancaman/kelemahan\n\n\nEvaluasi kontrol\n15%\nDesain dan efektivitas kontrol dinilai dengan bukti\nPenilaian cukup\nKlaim kontrol tidak dapat ditelusuri\n\n\nRekomendasi\n20%\nProporsional, berlapis, dan terkait langsung dengan risiko\nSebagian besar relevan\nUmum atau tidak menjawab risiko\n\n\nRespons dan pemulihan\n10%\nPeran, deteksi, respons, RTO/RPO, dan pembelajaran jelas\nAda elemen yang kurang\nSulit dijalankan atau diuji\n\n\nPeta jalan dan KPI\n10%\nPrioritas, pemilik, waktu, ukuran, dan residual risk jelas\nRencana cukup\nTidak operasional\n\n\nKomunikasi\n5%\nRingkas, akurat, dan tidak membocorkan data sensitif\nCukup dipahami\nSulit diikuti atau tidak aman dipublikasikan\n\n\nTotal\n100%"
+  },
+  {
+    "objectID": "rubrik.html#skala",
+    "href": "rubrik.html#skala",
+    "title": "Rubrik Penilaian",
+    "section": "Skala",
+    "text": "Skala\n\n4 — Sangat baik: tepat, lengkap, aman, dan berbasis bukti.\n3 — Baik: memenuhi tujuan dengan kekurangan kecil.\n2 — Cukup: sebagian tujuan tercapai, tetapi ada celah penting.\n1 — Perlu perbaikan: logika atau bukti belum memadai.\n0 — Tidak tersedia/tidak sesuai: komponen tidak diserahkan atau melanggar batas proyek.\n\n\\[\\text{Nilai akhir}=\\sum\\left(\\frac{\\text{skor kriteria}}{4}\\times\\text{bobot}\\right)\\]"
+  },
+  {
+    "objectID": "materi/index.html",
+    "href": "materi/index.html",
+    "title": "Peta Materi",
+    "section": "",
+    "text": "Setiap materi memuat tujuan belajar, konsep inti, aktivitas kelas yang aman, dan cek pemahaman.",
+    "crumbs": [
+      "Materi",
+      "Peta Materi"
+    ]
+  },
+  {
+    "objectID": "materi/index.html#fondasi-dan-tata-kelola",
+    "href": "materi/index.html#fondasi-dan-tata-kelola",
+    "title": "Peta Materi",
+    "section": "Fondasi dan tata kelola",
+    "text": "Fondasi dan tata kelola\n\n\n01 · Fondasi keamanan\nAset, tujuan keamanan, ancaman, dan kerentanan.\nBuka materi →\n\n\n02 · Tata kelola dan etika\nPeran, kebijakan, kepatuhan, dan praktik bertanggung jawab.\nBuka materi →\n\n\n03 · Manajemen risiko\nMenilai dan menangani risiko secara proporsional.\nBuka materi →",
+    "crumbs": [
+      "Materi",
+      "Peta Materi"
+    ]
+  },
+  {
+    "objectID": "materi/index.html#kontrol-perlindungan",
+    "href": "materi/index.html#kontrol-perlindungan",
+    "title": "Peta Materi",
+    "section": "Kontrol perlindungan",
+    "text": "Kontrol perlindungan\n\n\n04 · Identitas dan akses\nAutentikasi, otorisasi, dan prinsip hak minimum.\nBuka materi →\n\n\n05 · Kriptografi\nEnkripsi, hashing, tanda tangan digital, dan pengelolaan kunci.\nBuka materi →\n\n\n06 · Keamanan jaringan\nSegmentasi, kontrol lalu lintas, dan akses jarak jauh.\nBuka materi →\n\n\n07 · Hardening\nBaseline aman, patching, dan pengelolaan kerentanan.\nBuka materi →\n\n\n08 · Keamanan aplikasi\nKeamanan sejak kebutuhan hingga operasi.\nBuka materi →\n\n\n09 · Keamanan data\nKlasifikasi, privasi, retensi, dan pemusnahan.\nBuka materi →",
+    "crumbs": [
+      "Materi",
+      "Peta Materi"
+    ]
+  },
+  {
+    "objectID": "materi/index.html#deteksi-respons-dan-evaluasi",
+    "href": "materi/index.html#deteksi-respons-dan-evaluasi",
+    "title": "Peta Materi",
+    "section": "Deteksi, respons, dan evaluasi",
+    "text": "Deteksi, respons, dan evaluasi\n\n\n10 · Monitoring\nLog, indikator, deteksi, dan triase defensif.\nBuka materi →\n\n\n11 · Respons insiden\nPersiapan, pembatasan dampak, pemulihan, dan pembelajaran.\nBuka materi →\n\n\n12 · Kelangsungan bisnis\nBIA, RTO, RPO, backup, dan pemulihan layanan.\nBuka materi →\n\n\n13 · Audit dan asesmen\nBukti, temuan, risiko, dan tindak lanjut.\nBuka materi →\n\n\n14 · Presentasi\nMengomunikasikan temuan tanpa membuka informasi sensitif.\nBuka materi →",
+    "crumbs": [
+      "Materi",
+      "Peta Materi"
+    ]
+  },
+  {
+    "objectID": "materi/13-audit-assessment.html",
+    "href": "materi/13-audit-assessment.html",
+    "title": "13 · Audit dan Asesmen Keamanan",
+    "section": "",
+    "text": "Mahasiswa mampu merencanakan asesmen terbatas, mengevaluasi bukti, dan menulis rekomendasi berbasis risiko.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "13 · Audit dan Asesmen Keamanan"
+    ]
+  },
+  {
+    "objectID": "materi/13-audit-assessment.html#tujuan-belajar",
+    "href": "materi/13-audit-assessment.html#tujuan-belajar",
+    "title": "13 · Audit dan Asesmen Keamanan",
+    "section": "",
+    "text": "Mahasiswa mampu merencanakan asesmen terbatas, mengevaluasi bukti, dan menulis rekomendasi berbasis risiko.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "13 · Audit dan Asesmen Keamanan"
+    ]
+  },
+  {
+    "objectID": "materi/13-audit-assessment.html#struktur-asesmen",
+    "href": "materi/13-audit-assessment.html#struktur-asesmen",
+    "title": "13 · Audit dan Asesmen Keamanan",
+    "section": "Struktur asesmen",
+    "text": "Struktur asesmen\n\nTetapkan tujuan, kriteria, ruang lingkup, dan kewenangan.\nIdentifikasi kontrol dan bukti yang diperlukan.\nKumpulkan bukti melalui metode yang disetujui.\nBandingkan kondisi dengan kriteria.\nValidasi temuan bersama pemilik kontrol.\nPrioritaskan rekomendasi dan tindak lanjut.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "13 · Audit dan Asesmen Keamanan"
+    ]
+  },
+  {
+    "objectID": "materi/13-audit-assessment.html#anatomi-temuan",
+    "href": "materi/13-audit-assessment.html#anatomi-temuan",
+    "title": "13 · Audit dan Asesmen Keamanan",
+    "section": "Anatomi temuan",
+    "text": "Anatomi temuan\n\nKondisi yang diamati berbeda dari kriteria, disebabkan atau dipengaruhi oleh akar masalah, sehingga menimbulkan risiko/dampak. Rekomendasinya adalah perbaikan yang proporsional.\n\n\nAktivitas kelas · Review bukti\nTinjau paket bukti sintetis berisi kebijakan, matriks akses, ringkasan log, dan catatan backup. Nilai kecukupan bukti, tulis dua temuan, lalu minta kelompok lain memeriksa kejelasan dan kewajarannya.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "13 · Audit dan Asesmen Keamanan"
+    ]
+  },
+  {
+    "objectID": "materi/13-audit-assessment.html#prinsip-komunikasi",
+    "href": "materi/13-audit-assessment.html#prinsip-komunikasi",
+    "title": "13 · Audit dan Asesmen Keamanan",
+    "section": "Prinsip komunikasi",
+    "text": "Prinsip komunikasi\nPisahkan fakta, interpretasi, dan rekomendasi. Hindari bahasa menyalahkan. Batasi distribusi detail sensitif dan berikan waktu perbaikan yang realistis.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "13 · Audit dan Asesmen Keamanan"
+    ]
+  },
+  {
+    "objectID": "materi/11-respons-insiden.html",
+    "href": "materi/11-respons-insiden.html",
+    "title": "11 · Respons Insiden",
+    "section": "",
+    "text": "Mahasiswa mampu menyusun playbook respons berdasarkan skenario, peran, bukti, dan prioritas layanan.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "11 · Respons Insiden"
+    ]
+  },
+  {
+    "objectID": "materi/11-respons-insiden.html#tujuan-belajar",
+    "href": "materi/11-respons-insiden.html#tujuan-belajar",
+    "title": "11 · Respons Insiden",
+    "section": "",
+    "text": "Mahasiswa mampu menyusun playbook respons berdasarkan skenario, peran, bukti, dan prioritas layanan.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "11 · Respons Insiden"
+    ]
+  },
+  {
+    "objectID": "materi/11-respons-insiden.html#siklus-respons",
+    "href": "materi/11-respons-insiden.html#siklus-respons",
+    "title": "11 · Respons Insiden",
+    "section": "Siklus respons",
+    "text": "Siklus respons\n\n\n\n\n\nflowchart TD\n  A[\"Persiapan\"] --&gt; B[\"Deteksi & analisis\"]\n  B --&gt; C[\"Pembatasan dampak\"]\n  C --&gt; D[\"Perbaikan & pemulihan\"]\n  D --&gt; E[\"Pembelajaran\"]\n  E --&gt; A",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "11 · Respons Insiden"
+    ]
+  },
+  {
+    "objectID": "materi/11-respons-insiden.html#isi-playbook",
+    "href": "materi/11-respons-insiden.html#isi-playbook",
+    "title": "11 · Respons Insiden",
+    "section": "Isi playbook",
+    "text": "Isi playbook\n\nkriteria aktivasi dan tingkat keparahan;\nperan, jalur komunikasi, dan kewenangan;\nlangkah menjaga bukti dan catatan keputusan;\ntindakan aman untuk membatasi dampak;\nkriteria pemulihan dan validasi layanan;\nkomunikasi kepada pihak terkait;\nevaluasi pascainsiden dan tindak lanjut.\n\n\nAktivitas kelas · Tabletop exercise\nGunakan skenario fiktif gangguan akun dan layanan. Setiap kelompok menerima pembaruan situasi dari dosen, lalu mencatat keputusan, alasan, pemilik, risiko, dan kebutuhan komunikasi. Tidak ada sistem nyata yang diuji.\n\n\n\n\n\n\n\nPeringatanJaga bukti dan koordinasi\n\n\n\nJangan mengubah atau menghapus artefak secara sembarangan. Ikuti prosedur organisasi, dokumentasikan tindakan, dan libatkan pihak yang berwenang.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "11 · Respons Insiden"
+    ]
+  },
+  {
+    "objectID": "materi/09-keamanan-data.html",
+    "href": "materi/09-keamanan-data.html",
+    "title": "09 · Keamanan Data dan Privasi",
+    "section": "",
+    "text": "Mahasiswa mampu mengklasifikasikan data dan menentukan kontrol dari penciptaan hingga pemusnahan.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "09 · Keamanan Data dan Privasi"
+    ]
+  },
+  {
+    "objectID": "materi/09-keamanan-data.html#tujuan-belajar",
+    "href": "materi/09-keamanan-data.html#tujuan-belajar",
+    "title": "09 · Keamanan Data dan Privasi",
+    "section": "",
+    "text": "Mahasiswa mampu mengklasifikasikan data dan menentukan kontrol dari penciptaan hingga pemusnahan.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "09 · Keamanan Data dan Privasi"
+    ]
+  },
+  {
+    "objectID": "materi/09-keamanan-data.html#siklus-hidup-data",
+    "href": "materi/09-keamanan-data.html#siklus-hidup-data",
+    "title": "09 · Keamanan Data dan Privasi",
+    "section": "Siklus hidup data",
+    "text": "Siklus hidup data\n\n\n\n\n\nflowchart TD\n  A[\"Buat/kumpulkan\"] --&gt; B[\"Simpan\"]\n  B --&gt; C[\"Gunakan\"]\n  C --&gt; D[\"Bagikan\"]\n  D --&gt; E[\"Arsipkan\"]\n  E --&gt; F[\"Musnahkan\"]",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "09 · Keamanan Data dan Privasi"
+    ]
+  },
+  {
+    "objectID": "materi/09-keamanan-data.html#contoh-klasifikasi",
+    "href": "materi/09-keamanan-data.html#contoh-klasifikasi",
+    "title": "09 · Keamanan Data dan Privasi",
+    "section": "Contoh klasifikasi",
+    "text": "Contoh klasifikasi\n\n\n\n\n\n\n\n\nKelas\nContoh\nArah kontrol\n\n\n\n\nPublik\nInformasi yang disetujui untuk publik\nIntegritas dan publikasi resmi\n\n\nInternal\nProsedur kerja umum\nAkses pegawai dan pembagian terbatas\n\n\nRahasia\nData personal atau kontrak\nAkses minimum, enkripsi, logging\n\n\nSangat terbatas\nKredensial atau kunci penting\nPemisahan tugas dan kontrol khusus\n\n\n\n\nAktivitas kelas · Peta aliran data\nPetakan data pada layanan beasiswa fiktif. Tentukan tujuan pengumpulan, lokasi penyimpanan, akses, transfer, retensi, dan pemusnahannya. Identifikasi pengumpulan atau penyimpanan yang tidak diperlukan.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "09 · Keamanan Data dan Privasi"
+    ]
+  },
+  {
+    "objectID": "materi/09-keamanan-data.html#prinsip-privasi",
+    "href": "materi/09-keamanan-data.html#prinsip-privasi",
+    "title": "09 · Keamanan Data dan Privasi",
+    "section": "Prinsip privasi",
+    "text": "Prinsip privasi\nKumpulkan data seperlunya, gunakan untuk tujuan yang jelas, batasi retensi, jaga akurasi, berikan transparansi yang sesuai, dan lindungi hak pihak yang datanya diproses.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "09 · Keamanan Data dan Privasi"
+    ]
+  },
+  {
+    "objectID": "materi/07-hardening.html",
+    "href": "materi/07-hardening.html",
+    "title": "07 · Hardening dan Manajemen Kerentanan",
+    "section": "",
+    "text": "Mahasiswa mampu membuat baseline konfigurasi aman dan memprioritaskan perbaikan kerentanan berdasarkan risiko.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "07 · Hardening dan Manajemen Kerentanan"
+    ]
+  },
+  {
+    "objectID": "materi/07-hardening.html#tujuan-belajar",
+    "href": "materi/07-hardening.html#tujuan-belajar",
+    "title": "07 · Hardening dan Manajemen Kerentanan",
+    "section": "",
+    "text": "Mahasiswa mampu membuat baseline konfigurasi aman dan memprioritaskan perbaikan kerentanan berdasarkan risiko.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "07 · Hardening dan Manajemen Kerentanan"
+    ]
+  },
+  {
+    "objectID": "materi/07-hardening.html#siklus-pengelolaan",
+    "href": "materi/07-hardening.html#siklus-pengelolaan",
+    "title": "07 · Hardening dan Manajemen Kerentanan",
+    "section": "Siklus pengelolaan",
+    "text": "Siklus pengelolaan\n\nInventarisasi aset dan pemiliknya.\nTetapkan baseline konfigurasi.\nIdentifikasi penyimpangan dan kerentanan.\nNilai konteks, eksposur, dan dampak bisnis.\nUji serta terapkan perbaikan.\nVerifikasi dan dokumentasikan hasil.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "07 · Hardening dan Manajemen Kerentanan"
+    ]
+  },
+  {
+    "objectID": "materi/07-hardening.html#contoh-baseline-defensif",
+    "href": "materi/07-hardening.html#contoh-baseline-defensif",
+    "title": "07 · Hardening dan Manajemen Kerentanan",
+    "section": "Contoh baseline defensif",
+    "text": "Contoh baseline defensif\n\nmenonaktifkan layanan yang tidak diperlukan;\nmengganti konfigurasi bawaan yang tidak aman;\nmenerapkan pembaruan yang telah diuji;\nmembatasi hak administratif;\nmengaktifkan pencatatan dan sinkronisasi waktu;\nmenjaga salinan konfigurasi serta prosedur pemulihan.\n\n\nAktivitas kelas · Review konfigurasi\nTinjau lembar konfigurasi sintetis. Tandai penyimpangan dari baseline, jelaskan risikonya, tentukan prioritas perbaikan, dan rencanakan verifikasi setelah perubahan.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "07 · Hardening dan Manajemen Kerentanan"
+    ]
+  },
+  {
+    "objectID": "materi/07-hardening.html#cek-pemahaman",
+    "href": "materi/07-hardening.html#cek-pemahaman",
+    "title": "07 · Hardening dan Manajemen Kerentanan",
+    "section": "Cek pemahaman",
+    "text": "Cek pemahaman\nMengapa skor teknis kerentanan tidak boleh menjadi satu-satunya dasar prioritas? Mengapa perubahan keamanan perlu diuji dan memiliki rencana pemulihan?",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "07 · Hardening dan Manajemen Kerentanan"
+    ]
+  },
+  {
+    "objectID": "materi/05-kriptografi.html",
+    "href": "materi/05-kriptografi.html",
+    "title": "05 · Dasar Kriptografi",
+    "section": "",
+    "text": "Mahasiswa mampu membedakan tujuan mekanisme kriptografi dan mengenali pentingnya pengelolaan kunci.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "05 · Dasar Kriptografi"
+    ]
+  },
+  {
+    "objectID": "materi/05-kriptografi.html#tujuan-belajar",
+    "href": "materi/05-kriptografi.html#tujuan-belajar",
+    "title": "05 · Dasar Kriptografi",
+    "section": "",
+    "text": "Mahasiswa mampu membedakan tujuan mekanisme kriptografi dan mengenali pentingnya pengelolaan kunci.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "05 · Dasar Kriptografi"
+    ]
+  },
+  {
+    "objectID": "materi/05-kriptografi.html#peta-mekanisme",
+    "href": "materi/05-kriptografi.html#peta-mekanisme",
+    "title": "05 · Dasar Kriptografi",
+    "section": "Peta mekanisme",
+    "text": "Peta mekanisme\n\n\n\n\n\n\n\n\nMekanisme\nTujuan umum\nHal penting\n\n\n\n\nEnkripsi simetris\nMenjaga kerahasiaan data\nKunci yang sama harus terlindungi\n\n\nEnkripsi asimetris\nPertukaran aman dan identitas\nLebih lambat; memakai pasangan kunci\n\n\nHash\nSidik data satu arah\nBukan enkripsi dan tidak dapat “dibuka”\n\n\nMAC\nIntegritas dan autentisitas pesan\nMemerlukan kunci bersama\n\n\nTanda tangan digital\nIntegritas, asal, dan verifikasi\nKunci privat harus dijaga ketat\n\n\n\n\nAktivitas kelas · Pilih mekanisme\nUntuk lima kebutuhan—penyimpanan kata sandi, pertukaran dokumen, pemeriksaan berkas, koneksi web, dan persetujuan elektronik—pilih tujuan keamanan serta mekanisme yang sesuai. Jelaskan asumsi dan pengelolaan kuncinya tanpa membuat implementasi kriptografi sendiri.\n\n\n\n\n\n\n\nPeringatanKesalahan umum\n\n\n\nJangan merancang algoritma kriptografi sendiri atau menyimpan kunci bersama data yang dilindunginya. Gunakan pustaka dan layanan yang telah ditinjau, dengan konfigurasi yang didukung.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "05 · Dasar Kriptografi"
+    ]
+  },
+  {
+    "objectID": "materi/05-kriptografi.html#cek-pemahaman",
+    "href": "materi/05-kriptografi.html#cek-pemahaman",
+    "title": "05 · Dasar Kriptografi",
+    "section": "Cek pemahaman",
+    "text": "Cek pemahaman\nMengapa hashing tidak sama dengan enkripsi? Apa akibatnya jika kunci tidak dapat dipulihkan atau telah terekspos?",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "05 · Dasar Kriptografi"
+    ]
+  },
+  {
+    "objectID": "materi/03-manajemen-risiko.html",
+    "href": "materi/03-manajemen-risiko.html",
+    "title": "03 · Manajemen Risiko",
+    "section": "",
+    "text": "Mahasiswa mampu membuat risk register sederhana dan memilih respons risiko yang proporsional.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "03 · Manajemen Risiko"
+    ]
+  },
+  {
+    "objectID": "materi/03-manajemen-risiko.html#tujuan-belajar",
+    "href": "materi/03-manajemen-risiko.html#tujuan-belajar",
+    "title": "03 · Manajemen Risiko",
+    "section": "",
+    "text": "Mahasiswa mampu membuat risk register sederhana dan memilih respons risiko yang proporsional.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "03 · Manajemen Risiko"
+    ]
+  },
+  {
+    "objectID": "materi/03-manajemen-risiko.html#alur-penilaian",
+    "href": "materi/03-manajemen-risiko.html#alur-penilaian",
+    "title": "03 · Manajemen Risiko",
+    "section": "Alur penilaian",
+    "text": "Alur penilaian\n\n\n\n\n\nflowchart LR\n  A[\"Konteks & aset\"] --&gt; B[\"Ancaman & kerentanan\"]\n  B --&gt; C[\"Kemungkinan & dampak\"]\n  C --&gt; D[\"Prioritas\"]\n  D --&gt; E[\"Perlakuan risiko\"]\n\n\n\n\n\n\nSkor sederhana dapat digunakan untuk diskusi:\n\\[R = K \\times D\\]\ndengan \\(K\\) = kemungkinan dan \\(D\\) = dampak. Angka bukan kebenaran mutlak; asumsi dan bukti harus tetap dicatat.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "03 · Manajemen Risiko"
+    ]
+  },
+  {
+    "objectID": "materi/03-manajemen-risiko.html#pilihan-perlakuan",
+    "href": "materi/03-manajemen-risiko.html#pilihan-perlakuan",
+    "title": "03 · Manajemen Risiko",
+    "section": "Pilihan perlakuan",
+    "text": "Pilihan perlakuan\n\nMengurangi: menambah atau memperbaiki kontrol.\nMenghindari: menghentikan aktivitas sumber risiko.\nMemindahkan/berbagi: mengalihkan sebagian konsekuensi melalui pihak lain.\nMenerima: menyetujui risiko residual secara sadar dan terdokumentasi.\n\n\nAktivitas kelas · Risk register\nUntuk sistem perpustakaan fiktif, isi kolom: aset, skenario risiko, kontrol saat ini, kemungkinan, dampak, pemilik, perlakuan, dan risiko residual. Prioritaskan tiga risiko tertinggi.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "03 · Manajemen Risiko"
+    ]
+  },
+  {
+    "objectID": "materi/03-manajemen-risiko.html#cek-pemahaman",
+    "href": "materi/03-manajemen-risiko.html#cek-pemahaman",
+    "title": "03 · Manajemen Risiko",
+    "section": "Cek pemahaman",
+    "text": "Cek pemahaman\nMengapa daftar kerentanan belum sama dengan penilaian risiko? Apa yang membuat penerimaan risiko menjadi keputusan yang sah?",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "03 · Manajemen Risiko"
+    ]
+  },
+  {
+    "objectID": "materi/01-fondasi.html",
+    "href": "materi/01-fondasi.html",
+    "title": "01 · Fondasi Keamanan Informasi",
+    "section": "",
+    "text": "Mahasiswa mampu menjelaskan konsep dasar keamanan informasi dan menentukan kebutuhan keamanan sebuah aset berdasarkan konteks penggunaannya.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "01 · Fondasi Keamanan Informasi"
+    ]
+  },
+  {
+    "objectID": "materi/01-fondasi.html#tujuan-belajar",
+    "href": "materi/01-fondasi.html#tujuan-belajar",
+    "title": "01 · Fondasi Keamanan Informasi",
+    "section": "",
+    "text": "Mahasiswa mampu menjelaskan konsep dasar keamanan informasi dan menentukan kebutuhan keamanan sebuah aset berdasarkan konteks penggunaannya.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "01 · Fondasi Keamanan Informasi"
+    ]
+  },
+  {
+    "objectID": "materi/01-fondasi.html#konsep-inti",
+    "href": "materi/01-fondasi.html#konsep-inti",
+    "title": "01 · Fondasi Keamanan Informasi",
+    "section": "Konsep inti",
+    "text": "Konsep inti\n\n\n\nKonsep\nPertanyaan utama\n\n\n\n\nAset\nApa yang bernilai dan perlu dilindungi?\n\n\nAncaman\nPeristiwa apa yang dapat menimbulkan kerugian?\n\n\nKerentanan\nKelemahan apa yang dapat membuat ancaman berhasil?\n\n\nRisiko\nSeberapa mungkin dan besar dampaknya?\n\n\nKontrol\nTindakan apa yang mengurangi risiko?\n\n\n\n\nTujuan keamanan\n\nKerahasiaan: informasi hanya diakses pihak berwenang.\nIntegritas: informasi dan sistem tetap akurat serta tidak diubah tanpa izin.\nKetersediaan: informasi dan layanan tersedia ketika dibutuhkan.\nAutentisitas: identitas dan asal informasi dapat dipercaya.\nAkuntabilitas: tindakan dapat ditelusuri kepada pihak yang bertanggung jawab.\n\n\n\nAktivitas kelas · Peta aset\nGunakan studi kasus sistem akademik fiktif. Identifikasi data, layanan, perangkat, manusia, dan reputasi sebagai aset. Nilai tujuan keamanan mana yang paling penting untuk setiap aset dan jelaskan alasannya.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "01 · Fondasi Keamanan Informasi"
+    ]
+  },
+  {
+    "objectID": "materi/01-fondasi.html#cek-pemahaman",
+    "href": "materi/01-fondasi.html#cek-pemahaman",
+    "title": "01 · Fondasi Keamanan Informasi",
+    "section": "Cek pemahaman",
+    "text": "Cek pemahaman\nMengapa keamanan sempurna tidak realistis? Mengapa kontrol yang sama dapat tepat untuk satu aset tetapi berlebihan untuk aset lain?",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "01 · Fondasi Keamanan Informasi"
+    ]
+  },
+  {
+    "objectID": "glosarium.html",
+    "href": "glosarium.html",
+    "title": "Glosarium",
+    "section": "",
+    "text": "Istilah\nMakna ringkas\n\n\n\n\nAkuntabilitas\nKemampuan menelusuri tindakan kepada pihak yang bertanggung jawab\n\n\nAncaman\nKeadaan atau peristiwa yang berpotensi menimbulkan kerugian\n\n\nAset\nSesuatu yang bernilai bagi organisasi\n\n\nAutentikasi\nVerifikasi identitas yang diklaim\n\n\nOtorisasi\nPenentuan tindakan yang boleh dilakukan\n\n\nBIA\nAnalisis dampak gangguan terhadap layanan/organisasi\n\n\nEnkripsi\nTransformasi data untuk menjaga kerahasiaannya\n\n\nHash\nRingkasan satu arah untuk mendukung pemeriksaan integritas\n\n\nHardening\nPengurangan permukaan risiko melalui konfigurasi aman\n\n\nInsiden\nKejadian yang mengganggu atau mengancam tujuan keamanan\n\n\nIntegritas\nKeakuratan dan keutuhan informasi atau sistem\n\n\nKetersediaan\nKemampuan mengakses layanan/informasi saat dibutuhkan\n\n\nKerahasiaan\nPembatasan akses kepada pihak berwenang\n\n\nKerentanan\nKelemahan yang dapat berkontribusi pada risiko\n\n\nKontrol\nTindakan yang mengubah risiko\n\n\nLeast privilege\nPemberian hak minimum sesuai kebutuhan\n\n\nMFA\nAutentikasi dengan lebih dari satu jenis faktor\n\n\nRPO\nBatas kehilangan data yang dapat diterima\n\n\nRTO\nTarget waktu pemulihan layanan\n\n\nRisiko\nPengaruh ketidakpastian terhadap tujuan\n\n\nRisiko residual\nRisiko yang tersisa setelah kontrol diterapkan\n\n\nSegmentasi\nPemisahan jaringan/sistem berdasarkan fungsi dan kepercayaan\n\n\nThreat model\nRepresentasi aset, aliran, ancaman, dan mitigasi pada desain\n\n\n\n\n\n\n Kembali ke atas"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Keamanan Sistem Informasi",
+    "section": "",
+    "text": "Ruang belajar • Semester [TAHUN/SEMESTER]\n\n\nKita akan belajar mengenali risiko, memilih kontrol yang proporsional, merespons insiden, dan membangun budaya keamanan—secara aman, legal, dan bertanggung jawab.\n\nMulai dari materi pertama Lihat rencana kuliah"
+  },
+  {
+    "objectID": "index.html#orientasi-cepat",
+    "href": "index.html#orientasi-cepat",
+    "title": "Keamanan Sistem Informasi",
+    "section": "Orientasi cepat",
+    "text": "Orientasi cepat\n\n\n\n14\n\n\nPertemuan\nDari fondasi keamanan hingga audit dan rekomendasi perbaikan.\n\n\n\n\n4\n\n\nFungsi utama\nIdentifikasi, lindungi, deteksi, dan respons.\n\n\n\n\n1\n\n\nProyek utama\nMenilai keamanan sebuah sistem studi kasus dan merancang rencana peningkatan."
+  },
+  {
+    "objectID": "index.html#perjalanan-belajar",
+    "href": "index.html#perjalanan-belajar",
+    "title": "Keamanan Sistem Informasi",
+    "section": "Perjalanan belajar",
+    "text": "Perjalanan belajar\n\n\nIdentifikasi\nKenali aset, konteks, ancaman, kerentanan, dan risiko.\n\n\nLindungi\nPilih kontrol manusia, proses, dan teknologi yang tepat.\n\n\nDeteksi\nBangun visibilitas melalui pencatatan, indikator, dan pemantauan.\n\n\nRespons\nBatasi dampak, pulihkan layanan, dan pelajari insiden.\n\n\n\n\n\n\n\n\nPentingBatas praktik yang aman\n\n\n\nSeluruh latihan hanya dilakukan pada data sintetis, skenario kelas, atau sistem laboratorium yang secara eksplisit diizinkan. Jangan menguji akun, perangkat, jaringan, atau aplikasi milik pihak lain tanpa izin tertulis."
+  },
+  {
+    "objectID": "index.html#hasil-akhir-mata-kuliah",
+    "href": "index.html#hasil-akhir-mata-kuliah",
+    "title": "Keamanan Sistem Informasi",
+    "section": "Hasil akhir mata kuliah",
+    "text": "Hasil akhir mata kuliah\nSetelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:\n\nmenjelaskan prinsip kerahasiaan, integritas, ketersediaan, autentisitas, dan akuntabilitas;\nmelakukan penilaian risiko sederhana berbasis aset dan konteks;\nmemilih kontrol keamanan yang proporsional dan dapat dijelaskan;\nmenyusun rancangan respons insiden serta pemulihan layanan;\nmengomunikasikan temuan keamanan secara etis, jelas, dan berbasis bukti."
+  },
+  {
+    "objectID": "materi/02-tata-kelola-etika.html",
+    "href": "materi/02-tata-kelola-etika.html",
+    "title": "02 · Tata Kelola, Etika, dan Kebijakan",
+    "section": "",
+    "text": "Mahasiswa mampu menjelaskan pembagian tanggung jawab keamanan dan membedakan kebijakan, standar, prosedur, serta panduan.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "02 · Tata Kelola, Etika, dan Kebijakan"
+    ]
+  },
+  {
+    "objectID": "materi/02-tata-kelola-etika.html#tujuan-belajar",
+    "href": "materi/02-tata-kelola-etika.html#tujuan-belajar",
+    "title": "02 · Tata Kelola, Etika, dan Kebijakan",
+    "section": "",
+    "text": "Mahasiswa mampu menjelaskan pembagian tanggung jawab keamanan dan membedakan kebijakan, standar, prosedur, serta panduan.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "02 · Tata Kelola, Etika, dan Kebijakan"
+    ]
+  },
+  {
+    "objectID": "materi/02-tata-kelola-etika.html#hirarki-dokumen",
+    "href": "materi/02-tata-kelola-etika.html#hirarki-dokumen",
+    "title": "02 · Tata Kelola, Etika, dan Kebijakan",
+    "section": "Hirarki dokumen",
+    "text": "Hirarki dokumen\n\n\n\n\n\n\n\n\nDokumen\nFungsi\nContoh\n\n\n\n\nKebijakan\nMenyatakan arah dan kewajiban\nKebijakan kontrol akses\n\n\nStandar\nMenetapkan persyaratan wajib\nStandar konfigurasi perangkat\n\n\nProsedur\nMenjelaskan langkah kerja resmi\nProsedur pemulihan akun\n\n\nPanduan\nMemberi rekomendasi\nPanduan kerja jarak jauh",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "02 · Tata Kelola, Etika, dan Kebijakan"
+    ]
+  },
+  {
+    "objectID": "materi/02-tata-kelola-etika.html#pembagian-peran",
+    "href": "materi/02-tata-kelola-etika.html#pembagian-peran",
+    "title": "02 · Tata Kelola, Etika, dan Kebijakan",
+    "section": "Pembagian peran",
+    "text": "Pembagian peran\nManajemen menetapkan arah dan menerima risiko; pemilik aset menentukan kebutuhan; tim teknologi mengoperasikan kontrol; pengguna menaati kebijakan; fungsi audit memberi penilaian independen.\n\nAktivitas kelas · Dilema keputusan\nAnalisis kasus fiktif ketika tenggat bisnis bertentangan dengan persyaratan keamanan. Petakan kepentingan pihak terkait, risiko, kewenangan keputusan, dan cara menyampaikan keberatan secara profesional.\n\n\n\n\n\n\n\nPentingPrinsip praktik\n\n\n\nKemampuan teknis tidak sama dengan izin. Pengujian hanya sah bila ruang lingkup, waktu, target, dan cara pelaporan telah disetujui secara eksplisit.",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "02 · Tata Kelola, Etika, dan Kebijakan"
+    ]
+  },
+  {
+    "objectID": "materi/02-tata-kelola-etika.html#cek-pemahaman",
+    "href": "materi/02-tata-kelola-etika.html#cek-pemahaman",
+    "title": "02 · Tata Kelola, Etika, dan Kebijakan",
+    "section": "Cek pemahaman",
+    "text": "Cek pemahaman\nSiapa yang seharusnya menerima risiko? Mengapa kepatuhan terhadap aturan belum tentu berarti sistem sudah aman?",
+    "crumbs": [
+      "Materi",
+      "Fondasi & Tata Kelola",
+      "02 · Tata Kelola, Etika, dan Kebijakan"
+    ]
+  },
+  {
+    "objectID": "materi/04-identitas-akses.html",
+    "href": "materi/04-identitas-akses.html",
+    "title": "04 · Identitas dan Kontrol Akses",
+    "section": "",
+    "text": "Mahasiswa mampu merancang kontrol akses berdasarkan peran, kebutuhan kerja, dan prinsip hak minimum.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "04 · Identitas dan Kontrol Akses"
+    ]
+  },
+  {
+    "objectID": "materi/04-identitas-akses.html#tujuan-belajar",
+    "href": "materi/04-identitas-akses.html#tujuan-belajar",
+    "title": "04 · Identitas dan Kontrol Akses",
+    "section": "",
+    "text": "Mahasiswa mampu merancang kontrol akses berdasarkan peran, kebutuhan kerja, dan prinsip hak minimum.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "04 · Identitas dan Kontrol Akses"
+    ]
+  },
+  {
+    "objectID": "materi/04-identitas-akses.html#empat-tahap",
+    "href": "materi/04-identitas-akses.html#empat-tahap",
+    "title": "04 · Identitas dan Kontrol Akses",
+    "section": "Empat tahap",
+    "text": "Empat tahap\n\nIdentifikasi: pengguna menyatakan identitas.\nAutentikasi: sistem memverifikasi identitas.\nOtorisasi: sistem menentukan tindakan yang diizinkan.\nAkuntabilitas: aktivitas penting dicatat dan ditinjau.\n\n\nPrinsip utama\n\nLeast privilege: hanya hak minimum yang diperlukan.\nNeed to know: akses informasi sesuai kebutuhan kerja.\nSeparation of duties: keputusan berisiko tidak dikuasai satu pihak.\nMFA: menggunakan faktor autentikasi berbeda.\nJoiner–mover–leaver: akses mengikuti perubahan status pengguna.\n\n\n\nAktivitas kelas · Matriks akses\nBuat matriks peran dan izin untuk sistem akademik fiktif. Tinjau konflik tugas, akun tidak aktif, akses istimewa, persetujuan, dan jadwal evaluasi berkala.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "04 · Identitas dan Kontrol Akses"
+    ]
+  },
+  {
+    "objectID": "materi/04-identitas-akses.html#cek-pemahaman",
+    "href": "materi/04-identitas-akses.html#cek-pemahaman",
+    "title": "04 · Identitas dan Kontrol Akses",
+    "section": "Cek pemahaman",
+    "text": "Cek pemahaman\nMengapa kata sandi kuat saja tidak cukup? Apa risiko jika akses pegawai lama tidak segera dicabut?",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "04 · Identitas dan Kontrol Akses"
+    ]
+  },
+  {
+    "objectID": "materi/06-keamanan-jaringan.html",
+    "href": "materi/06-keamanan-jaringan.html",
+    "title": "06 · Keamanan Jaringan",
+    "section": "",
+    "text": "Mahasiswa mampu menyusun rancangan jaringan defensif berdasarkan zona kepercayaan dan kebutuhan komunikasi.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "06 · Keamanan Jaringan"
+    ]
+  },
+  {
+    "objectID": "materi/06-keamanan-jaringan.html#tujuan-belajar",
+    "href": "materi/06-keamanan-jaringan.html#tujuan-belajar",
+    "title": "06 · Keamanan Jaringan",
+    "section": "",
+    "text": "Mahasiswa mampu menyusun rancangan jaringan defensif berdasarkan zona kepercayaan dan kebutuhan komunikasi.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "06 · Keamanan Jaringan"
+    ]
+  },
+  {
+    "objectID": "materi/06-keamanan-jaringan.html#prinsip-desain",
+    "href": "materi/06-keamanan-jaringan.html#prinsip-desain",
+    "title": "06 · Keamanan Jaringan",
+    "section": "Prinsip desain",
+    "text": "Prinsip desain\n\nPisahkan sistem berdasarkan sensitivitas dan fungsi.\nIzinkan hanya komunikasi yang diperlukan.\nLindungi jalur administrasi dan akses jarak jauh.\nCatat peristiwa penting pada titik pengendalian.\nTinjau aturan secara berkala dan hapus yang tidak lagi dibutuhkan.\n\n\n\n\n\n\nflowchart LR\n  A[\"Pengguna\"] --&gt; B[\"Zona aplikasi\"]\n  B --&gt; C[\"Zona data\"]\n  D[\"Admin berwenang\"] --&gt; E[\"Jalur administrasi\"]\n  E --&gt; B\n  E --&gt; C\n\n\n\n\n\n\n\nAktivitas kelas · Rancangan segmentasi\nGunakan arsitektur fiktif yang disediakan dosen. Kelompokkan layanan ke dalam zona, tentukan komunikasi yang diperlukan, lalu jelaskan kontrol, pencatatan, dan pemilik setiap aturan.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "06 · Keamanan Jaringan"
+    ]
+  },
+  {
+    "objectID": "materi/06-keamanan-jaringan.html#batas-aman",
+    "href": "materi/06-keamanan-jaringan.html#batas-aman",
+    "title": "06 · Keamanan Jaringan",
+    "section": "Batas aman",
+    "text": "Batas aman\nLatihan berfokus pada diagram, aturan defensif, dan analisis konfigurasi contoh. Jangan memindai atau menguji jaringan nyata di luar lingkungan laboratorium yang diberi izin.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "06 · Keamanan Jaringan"
+    ]
+  },
+  {
+    "objectID": "materi/08-keamanan-aplikasi.html",
+    "href": "materi/08-keamanan-aplikasi.html",
+    "title": "08 · Keamanan Aplikasi dan SDLC",
+    "section": "",
+    "text": "Mahasiswa mampu membuat threat model sederhana dan menghubungkan risiko aplikasi dengan kontrol sepanjang SDLC.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "08 · Keamanan Aplikasi dan SDLC"
+    ]
+  },
+  {
+    "objectID": "materi/08-keamanan-aplikasi.html#tujuan-belajar",
+    "href": "materi/08-keamanan-aplikasi.html#tujuan-belajar",
+    "title": "08 · Keamanan Aplikasi dan SDLC",
+    "section": "",
+    "text": "Mahasiswa mampu membuat threat model sederhana dan menghubungkan risiko aplikasi dengan kontrol sepanjang SDLC.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "08 · Keamanan Aplikasi dan SDLC"
+    ]
+  },
+  {
+    "objectID": "materi/08-keamanan-aplikasi.html#keamanan-sepanjang-siklus-hidup",
+    "href": "materi/08-keamanan-aplikasi.html#keamanan-sepanjang-siklus-hidup",
+    "title": "08 · Keamanan Aplikasi dan SDLC",
+    "section": "Keamanan sepanjang siklus hidup",
+    "text": "Keamanan sepanjang siklus hidup\n\n\n\n\n\n\n\nTahap\nPertanyaan keamanan\n\n\n\n\nKebutuhan\nData dan fungsi apa yang sensitif?\n\n\nDesain\nDi mana batas kepercayaan dan jalur data?\n\n\nImplementasi\nBagaimana input, error, rahasia, dan dependensi dikelola?\n\n\nVerifikasi\nBukti apa yang menunjukkan kontrol bekerja?\n\n\nRilis\nApakah konfigurasi produksi aman dan dapat dipulihkan?\n\n\nOperasi\nBagaimana pembaruan, logging, dan respons dilakukan?",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "08 · Keamanan Aplikasi dan SDLC"
+    ]
+  },
+  {
+    "objectID": "materi/08-keamanan-aplikasi.html#threat-modeling-defensif",
+    "href": "materi/08-keamanan-aplikasi.html#threat-modeling-defensif",
+    "title": "08 · Keamanan Aplikasi dan SDLC",
+    "section": "Threat modeling defensif",
+    "text": "Threat modeling defensif\n\nGambarkan komponen, aktor, data, dan batas kepercayaan.\nTentukan skenario kerugian yang relevan.\nNilai kontrol pencegahan, deteksi, dan pemulihan.\nPrioritaskan perubahan dan pemilik tindak lanjut.\n\n\nAktivitas kelas · Diagram aliran data\nGunakan aplikasi pemesanan fiktif. Gambarkan pengguna, aplikasi, layanan autentikasi, dan basis data. Tandai data sensitif serta batas kepercayaan, lalu usulkan kontrol pada setiap perpindahan data.\n\n\n\n\n\n\n\nCatatanFokus pembelajaran\n\n\n\nLatihan membahas desain dan mitigasi, bukan eksploitasi aplikasi nyata. Pengujian teknis hanya dilakukan pada laboratorium yang disediakan dan diberi izin.",
+    "crumbs": [
+      "Materi",
+      "Kontrol Perlindungan",
+      "08 · Keamanan Aplikasi dan SDLC"
+    ]
+  },
+  {
+    "objectID": "materi/10-monitoring.html",
+    "href": "materi/10-monitoring.html",
+    "title": "10 · Logging, Monitoring, dan Deteksi",
+    "section": "",
+    "text": "Mahasiswa mampu menentukan peristiwa yang perlu dicatat dan merancang alur deteksi serta eskalasi.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "10 · Logging, Monitoring, dan Deteksi"
+    ]
+  },
+  {
+    "objectID": "materi/10-monitoring.html#tujuan-belajar",
+    "href": "materi/10-monitoring.html#tujuan-belajar",
+    "title": "10 · Logging, Monitoring, dan Deteksi",
+    "section": "",
+    "text": "Mahasiswa mampu menentukan peristiwa yang perlu dicatat dan merancang alur deteksi serta eskalasi.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "10 · Logging, Monitoring, dan Deteksi"
+    ]
+  },
+  {
+    "objectID": "materi/10-monitoring.html#log-yang-berguna",
+    "href": "materi/10-monitoring.html#log-yang-berguna",
+    "title": "10 · Logging, Monitoring, dan Deteksi",
+    "section": "Log yang berguna",
+    "text": "Log yang berguna\nCatatan sebaiknya menjawab: apa yang terjadi, kapan, di mana, oleh siapa, hasilnya, dan konteks yang diperlukan. Hindari mencatat kata sandi, token, isi rahasia, atau data personal yang tidak diperlukan.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "10 · Logging, Monitoring, dan Deteksi"
+    ]
+  },
+  {
+    "objectID": "materi/10-monitoring.html#dari-peristiwa-ke-tindakan",
+    "href": "materi/10-monitoring.html#dari-peristiwa-ke-tindakan",
+    "title": "10 · Logging, Monitoring, dan Deteksi",
+    "section": "Dari peristiwa ke tindakan",
+    "text": "Dari peristiwa ke tindakan\n\n\n\nTahap\nKeluaran\n\n\n\n\nKumpulkan\nLog dari sumber penting\n\n\nNormalisasi\nWaktu dan struktur konsisten\n\n\nKorelasi\nHubungan antarkeadaan/peristiwa\n\n\nDeteksi\nPeringatan berdasarkan aturan atau pola\n\n\nTriase\nPrioritas, konteks, dan kemungkinan dampak\n\n\nEskalasi\nTindak lanjut oleh peran yang tepat\n\n\n\n\nAktivitas kelas · Rancang use case deteksi\nDari log sintetis, definisikan tiga peristiwa penting seperti perubahan hak akses atau kegagalan autentikasi berulang. Tentukan sumber data, kondisi peringatan, konteks triase, tingkat prioritas, dan pemilik respons.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "10 · Logging, Monitoring, dan Deteksi"
+    ]
+  },
+  {
+    "objectID": "materi/10-monitoring.html#cek-pemahaman",
+    "href": "materi/10-monitoring.html#cek-pemahaman",
+    "title": "10 · Logging, Monitoring, dan Deteksi",
+    "section": "Cek pemahaman",
+    "text": "Cek pemahaman\nMengapa mengumpulkan semua log belum tentu meningkatkan keamanan? Apa dampak positif palsu dan negatif palsu terhadap operasi?",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "10 · Logging, Monitoring, dan Deteksi"
+    ]
+  },
+  {
+    "objectID": "materi/12-kelangsungan-bisnis.html",
+    "href": "materi/12-kelangsungan-bisnis.html",
+    "title": "12 · Kelangsungan Bisnis dan Pemulihan",
+    "section": "",
+    "text": "Mahasiswa mampu melakukan business impact analysis sederhana dan menyusun strategi pemulihan yang dapat diuji.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "12 · Kelangsungan Bisnis dan Pemulihan"
+    ]
+  },
+  {
+    "objectID": "materi/12-kelangsungan-bisnis.html#tujuan-belajar",
+    "href": "materi/12-kelangsungan-bisnis.html#tujuan-belajar",
+    "title": "12 · Kelangsungan Bisnis dan Pemulihan",
+    "section": "",
+    "text": "Mahasiswa mampu melakukan business impact analysis sederhana dan menyusun strategi pemulihan yang dapat diuji.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "12 · Kelangsungan Bisnis dan Pemulihan"
+    ]
+  },
+  {
+    "objectID": "materi/12-kelangsungan-bisnis.html#ukuran-penting",
+    "href": "materi/12-kelangsungan-bisnis.html#ukuran-penting",
+    "title": "12 · Kelangsungan Bisnis dan Pemulihan",
+    "section": "Ukuran penting",
+    "text": "Ukuran penting\n\nRTO: target waktu pemulihan layanan.\nRPO: batas kehilangan data yang dapat diterima, dinyatakan sebagai waktu.\nMTPD: durasi maksimum gangguan sebelum dampaknya tidak dapat diterima.\n\n\n\n\n\n\n\n\nPertanyaan BIA\nContoh keluaran\n\n\n\n\nLayanan apa yang kritis?\nSistem registrasi\n\n\nKapan layanan paling dibutuhkan?\nMasa pengisian rencana studi\n\n\nKetergantungan apa yang diperlukan?\nIdentitas, jaringan, basis data, petugas\n\n\nApa dampak gangguan?\nAkademik, operasional, reputasi, kepatuhan\n\n\n\n\nAktivitas kelas · Prioritas pemulihan\nUntuk empat layanan fiktif, tetapkan prioritas, RTO, RPO, dependensi, strategi alternatif, dan bukti pengujian. Jelaskan trade-off antara kebutuhan dan sumber daya.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "12 · Kelangsungan Bisnis dan Pemulihan"
+    ]
+  },
+  {
+    "objectID": "materi/12-kelangsungan-bisnis.html#backup-yang-bermakna",
+    "href": "materi/12-kelangsungan-bisnis.html#backup-yang-bermakna",
+    "title": "12 · Kelangsungan Bisnis dan Pemulihan",
+    "section": "Backup yang bermakna",
+    "text": "Backup yang bermakna\nBackup harus terpisah, terlindungi, dipantau, dan diuji melalui pemulihan. Keberhasilan pencadangan tidak sama dengan keberhasilan pemulihan.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "12 · Kelangsungan Bisnis dan Pemulihan"
+    ]
+  },
+  {
+    "objectID": "materi/14-presentasi.html",
+    "href": "materi/14-presentasi.html",
+    "title": "14 · Presentasi Rekomendasi",
+    "section": "",
+    "text": "Mahasiswa mampu menjelaskan temuan, risiko, kontrol, dan peta jalan kepada pemangku kepentingan nonteknis.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "14 · Presentasi Rekomendasi"
+    ]
+  },
+  {
+    "objectID": "materi/14-presentasi.html#tujuan-belajar",
+    "href": "materi/14-presentasi.html#tujuan-belajar",
+    "title": "14 · Presentasi Rekomendasi",
+    "section": "",
+    "text": "Mahasiswa mampu menjelaskan temuan, risiko, kontrol, dan peta jalan kepada pemangku kepentingan nonteknis.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "14 · Presentasi Rekomendasi"
+    ]
+  },
+  {
+    "objectID": "materi/14-presentasi.html#alur-presentasi",
+    "href": "materi/14-presentasi.html#alur-presentasi",
+    "title": "14 · Presentasi Rekomendasi",
+    "section": "Alur presentasi",
+    "text": "Alur presentasi\n\nKonteks sistem, aset, dan ruang lingkup.\nMetode serta batas pengumpulan bukti.\nRisiko prioritas dan kontrol yang tersedia.\nKesenjangan utama dan dampak bisnis.\nRekomendasi jangka pendek, menengah, dan panjang.\nPemilik, sumber daya, indikator, dan risiko residual.\n\n\nAktivitas kelas · Briefing keamanan\nSampaikan rekomendasi dalam delapan menit. Gunakan satu peta arsitektur tingkat tinggi, satu risk register ringkas, dan satu peta jalan. Hilangkan alamat sistem, kredensial, data personal, serta detail sensitif dari materi presentasi.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "14 · Presentasi Rekomendasi"
+    ]
+  },
+  {
+    "objectID": "materi/14-presentasi.html#pertanyaan-yang-perlu-siap-dijawab",
+    "href": "materi/14-presentasi.html#pertanyaan-yang-perlu-siap-dijawab",
+    "title": "14 · Presentasi Rekomendasi",
+    "section": "Pertanyaan yang perlu siap dijawab",
+    "text": "Pertanyaan yang perlu siap dijawab\n\nBukti apa yang mendukung tingkat risiko?\nMengapa kontrol ini diprioritaskan?\nSiapa pemilik tindakan dan bagaimana keberhasilannya diukur?\nApa konsekuensi bisnis dan operasionalnya?\nRisiko apa yang tetap ada setelah perbaikan?\n\nLihat rubrik proyek sebelum presentasi.",
+    "crumbs": [
+      "Materi",
+      "Deteksi, Respons & Evaluasi",
+      "14 · Presentasi Rekomendasi"
+    ]
+  },
+  {
+    "objectID": "proyek.html",
+    "href": "proyek.html",
+    "title": "Proyek Akhir",
+    "section": "",
+    "text": "Dalam kelompok, lakukan asesmen defensif terhadap sistem studi kasus atau lingkungan laboratorium yang diberikan dosen. Hasil akhirnya adalah gambaran postur risiko, rancangan kontrol prioritas, dan peta jalan peningkatan yang dapat dipertanggungjawabkan."
+  },
+  {
+    "objectID": "proyek.html#tantangan",
+    "href": "proyek.html#tantangan",
+    "title": "Proyek Akhir",
+    "section": "",
+    "text": "Dalam kelompok, lakukan asesmen defensif terhadap sistem studi kasus atau lingkungan laboratorium yang diberikan dosen. Hasil akhirnya adalah gambaran postur risiko, rancangan kontrol prioritas, dan peta jalan peningkatan yang dapat dipertanggungjawabkan."
+  },
+  {
+    "objectID": "proyek.html#pilihan-objek",
+    "href": "proyek.html#pilihan-objek",
+    "title": "Proyek Akhir",
+    "section": "Pilihan objek",
+    "text": "Pilihan objek\n\nkasus sintetis yang tersedia pada mata kuliah;\naplikasi demonstrasi yang memang dibuat untuk pembelajaran;\ndokumen dan konfigurasi contoh yang telah dianonimkan;\nsistem organisasi hanya jika ada persetujuan tertulis, ruang lingkup jelas, dan supervisi dosen."
+  },
+  {
+    "objectID": "proyek.html#tahapan",
+    "href": "proyek.html#tahapan",
+    "title": "Proyek Akhir",
+    "section": "Tahapan",
+    "text": "Tahapan\n\n\n\n\n\n\n\n\nTahap\nArtefak\nWaktu\n\n\n\n\n1. Ruang lingkup\nSistem, aset, pemilik, izin, dan batas\nPekan 2\n\n\n2. Risiko awal\nRisk register dan asumsi\nPekan 4\n\n\n3. Arsitektur\nAliran data, identitas, dan zona kepercayaan\nPekan 6\n\n\n4. Kontrol\nAnalisis kontrol dan bukti\nPekan 9\n\n\n5. Respons\nMonitoring, playbook, dan pemulihan\nPekan 11\n\n\n6. Peta jalan\nPrioritas, pemilik, KPI, dan risiko residual\nPekan 13\n\n\n7. Presentasi\nLaporan dan briefing\nPekan 14"
+  },
+  {
+    "objectID": "proyek.html#struktur-laporan",
+    "href": "proyek.html#struktur-laporan",
+    "title": "Proyek Akhir",
+    "section": "Struktur laporan",
+    "text": "Struktur laporan\n\nRingkasan eksekutif\nTujuan, ruang lingkup, izin, dan keterbatasan\nKonteks sistem, aset, data, dan ketergantungan\nMetode serta bukti\nRisk register dan risiko prioritas\nEvaluasi kontrol saat ini\nRekomendasi kontrol dan risiko residual\nMonitoring, respons, dan strategi pemulihan\nPeta jalan implementasi serta indikator\nRefleksi etika dan referensi"
+  },
+  {
+    "objectID": "proyek.html#definisi-selesai",
+    "href": "proyek.html#definisi-selesai",
+    "title": "Proyek Akhir",
+    "section": "Definisi selesai",
+    "text": "Definisi selesai\n\n\n\n\n\nflowchart LR\n  A[\"Aset & konteks\"] --&gt; B[\"Risiko berbasis bukti\"]\n  B --&gt; C[\"Kontrol proporsional\"]\n  C --&gt; D[\"Rencana implementasi\"]\n  D --&gt; E[\"Ukuran & risiko residual\"]\n\n\n\n\n\n\n\n\n\n\n\n\nPeringatanPerlindungan informasi\n\n\n\nRepositori publik hanya boleh berisi data sintetis dan materi yang aman untuk dipublikasikan. Detail sensitif disimpan pada kanal terbatas yang disetujui dosen."
+  },
+  {
+    "objectID": "silabus.html",
+    "href": "silabus.html",
+    "title": "Rencana Perkuliahan",
+    "section": "",
+    "text": "Komponen\nIsi\n\n\n\n\nProgram studi\n[NAMA PROGRAM STUDI]\n\n\nKode mata kuliah\n[KODE]\n\n\nBobot\n[3 SKS]\n\n\nSemester\n[SEMESTER/TAHUN AKADEMIK]\n\n\nDosen\n[NAMA DOSEN]\n\n\nKontak\n[EMAIL / LMS]\n\n\nPrasyarat\n[MATA KULIAH PRASYARAT]"
+  },
+  {
+    "objectID": "silabus.html#identitas-mata-kuliah",
+    "href": "silabus.html#identitas-mata-kuliah",
+    "title": "Rencana Perkuliahan",
+    "section": "",
+    "text": "Komponen\nIsi\n\n\n\n\nProgram studi\n[NAMA PROGRAM STUDI]\n\n\nKode mata kuliah\n[KODE]\n\n\nBobot\n[3 SKS]\n\n\nSemester\n[SEMESTER/TAHUN AKADEMIK]\n\n\nDosen\n[NAMA DOSEN]\n\n\nKontak\n[EMAIL / LMS]\n\n\nPrasyarat\n[MATA KULIAH PRASYARAT]"
+  },
+  {
+    "objectID": "silabus.html#deskripsi",
+    "href": "silabus.html#deskripsi",
+    "title": "Rencana Perkuliahan",
+    "section": "Deskripsi",
+    "text": "Deskripsi\nMata kuliah ini membahas perlindungan sistem informasi melalui pengelolaan risiko dan penerapan kontrol pada manusia, proses, data, aplikasi, perangkat, dan jaringan. Mahasiswa belajar melalui studi kasus, analisis artefak, latihan konfigurasi defensif dalam lingkungan berizin, serta proyek penilaian keamanan."
+  },
+  {
+    "objectID": "silabus.html#capaian-pembelajaran",
+    "href": "silabus.html#capaian-pembelajaran",
+    "title": "Rencana Perkuliahan",
+    "section": "Capaian pembelajaran",
+    "text": "Capaian pembelajaran\nMahasiswa mampu:\n\nMenjelaskan tujuan, prinsip, etika, dan tata kelola keamanan informasi.\nMenganalisis aset, ancaman, kerentanan, dampak, dan kemungkinan risiko.\nMerancang kontrol identitas, jaringan, aplikasi, data, dan operasi yang sesuai konteks.\nMenyusun rencana pemantauan, respons insiden, dan kelangsungan layanan.\nMengevaluasi postur keamanan serta menyampaikan rekomendasi secara bertanggung jawab."
+  },
+  {
+    "objectID": "silabus.html#pola-pembelajaran",
+    "href": "silabus.html#pola-pembelajaran",
+    "title": "Rencana Perkuliahan",
+    "section": "Pola pembelajaran",
+    "text": "Pola pembelajaran\n\n\n\n\n\nflowchart LR\n  A[\"Kasus\"] --&gt; B[\"Konsep\"]\n  B --&gt; C[\"Analisis aman\"]\n  C --&gt; D[\"Rancangan kontrol\"]\n  D --&gt; E[\"Refleksi\"]"
+  },
+  {
+    "objectID": "silabus.html#jadwal-14-pertemuan",
+    "href": "silabus.html#jadwal-14-pertemuan",
+    "title": "Rencana Perkuliahan",
+    "section": "Jadwal 14 pertemuan",
+    "text": "Jadwal 14 pertemuan\n\n\n\nPekan\nPokok bahasan\nProduk belajar\n\n\n\n\n1\nFondasi keamanan informasi\nPeta aset dan tujuan keamanan\n\n\n2\nTata kelola, etika, dan kebijakan\nAnalisis tanggung jawab\n\n\n3\nManajemen risiko\nRisk register awal\n\n\n4\nIdentitas dan kontrol akses\nMatriks hak akses\n\n\n5\nDasar kriptografi\nPeta penggunaan kriptografi\n\n\n6\nKeamanan jaringan\nRancangan segmentasi defensif\n\n\n7\nHardening dan manajemen kerentanan\nBaseline konfigurasi aman\n\n\n8\nKeamanan aplikasi dan SDLC\nThreat model aplikasi\n\n\n9\nKeamanan data dan privasi\nKlasifikasi serta siklus hidup data\n\n\n10\nLogging, monitoring, dan deteksi\nRencana pemantauan\n\n\n11\nRespons insiden\nIncident response playbook\n\n\n12\nKelangsungan bisnis dan pemulihan\nBIA dan strategi pemulihan\n\n\n13\nAudit dan asesmen keamanan\nTemuan dan rencana tindak lanjut\n\n\n14\nPresentasi proyek\nRekomendasi peningkatan keamanan"
+  },
+  {
+    "objectID": "silabus.html#penilaian",
+    "href": "silabus.html#penilaian",
+    "title": "Rencana Perkuliahan",
+    "section": "Penilaian",
+    "text": "Penilaian\n\n\n\nKomponen\nBobot\n\n\n\n\nPartisipasi dan latihan aman\n15%\n\n\nTugas analisis individu\n20%\n\n\nUjian/analisis kasus tengah semester\n25%\n\n\nProyek akhir kelompok\n35%\n\n\nRefleksi etika\n5%\n\n\nTotal\n100%"
+  },
+  {
+    "objectID": "silabus.html#aturan-keselamatan-dan-etika",
+    "href": "silabus.html#aturan-keselamatan-dan-etika",
+    "title": "Rencana Perkuliahan",
+    "section": "Aturan keselamatan dan etika",
+    "text": "Aturan keselamatan dan etika\n\nPraktik hanya pada sistem dan data yang disediakan atau diizinkan dosen.\nDilarang mencoba teknik pada target publik, perangkat orang lain, atau jaringan kampus tanpa izin tertulis.\nRahasiakan kredensial dan informasi sensitif; gunakan data sintetis saat presentasi.\nLaporkan temuan melalui jalur yang ditetapkan, bukan melalui publikasi terbuka.\nMahasiswa wajib dapat menjelaskan seluruh artefak dan sumber bantuan yang digunakan."
+  }
+]
