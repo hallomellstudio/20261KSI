@@ -1,0 +1,55 @@
+---
+title: "Proyek Akhir"
+description: "Asesmen defensif dan rencana peningkatan keamanan untuk sistem studi kasus."
+---
+
+## Tantangan
+
+Dalam kelompok, lakukan asesmen defensif terhadap sistem studi kasus atau lingkungan laboratorium yang diberikan dosen. Hasil akhirnya adalah gambaran postur risiko, rancangan kontrol prioritas, dan peta jalan peningkatan yang dapat dipertanggungjawabkan.
+
+## Pilihan objek
+
+- kasus sintetis yang tersedia pada mata kuliah;
+- aplikasi demonstrasi yang memang dibuat untuk pembelajaran;
+- dokumen dan konfigurasi contoh yang telah dianonimkan;
+- sistem organisasi hanya jika ada persetujuan tertulis, ruang lingkup jelas, dan supervisi dosen.
+
+## Tahapan
+
+| Tahap | Artefak | Waktu |
+|---|---|---|
+| 1. Ruang lingkup | Sistem, aset, pemilik, izin, dan batas | Pekan 2 |
+| 2. Risiko awal | *Risk register* dan asumsi | Pekan 4 |
+| 3. Arsitektur | Aliran data, identitas, dan zona kepercayaan | Pekan 6 |
+| 4. Kontrol | Analisis kontrol dan bukti | Pekan 9 |
+| 5. Respons | Monitoring, playbook, dan pemulihan | Pekan 11 |
+| 6. Peta jalan | Prioritas, pemilik, KPI, dan risiko residual | Pekan 13 |
+| 7. Presentasi | Laporan dan briefing | Pekan 14 |
+
+## Struktur laporan
+
+1. Ringkasan eksekutif
+2. Tujuan, ruang lingkup, izin, dan keterbatasan
+3. Konteks sistem, aset, data, dan ketergantungan
+4. Metode serta bukti
+5. *Risk register* dan risiko prioritas
+6. Evaluasi kontrol saat ini
+7. Rekomendasi kontrol dan risiko residual
+8. Monitoring, respons, dan strategi pemulihan
+9. Peta jalan implementasi serta indikator
+10. Refleksi etika dan referensi
+
+## Definisi selesai
+
+```{mermaid}
+flowchart LR
+  A["Aset & konteks"] --> B["Risiko berbasis bukti"]
+  B --> C["Kontrol proporsional"]
+  C --> D["Rencana implementasi"]
+  D --> E["Ukuran & risiko residual"]
+```
+
+::: {.callout-warning title="Perlindungan informasi"}
+Repositori publik hanya boleh berisi data sintetis dan materi yang aman untuk dipublikasikan. Detail sensitif disimpan pada kanal terbatas yang disetujui dosen.
+:::
+

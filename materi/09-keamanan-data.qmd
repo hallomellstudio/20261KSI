@@ -1,0 +1,38 @@
+---
+title: "09 · Keamanan Data dan Privasi"
+description: "Melindungi data berdasarkan klasifikasi dan siklus hidupnya."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu mengklasifikasikan data dan menentukan kontrol dari penciptaan hingga pemusnahan.
+
+## Siklus hidup data
+
+```{mermaid}
+flowchart TD
+  A["Buat/kumpulkan"] --> B["Simpan"]
+  B --> C["Gunakan"]
+  C --> D["Bagikan"]
+  D --> E["Arsipkan"]
+  E --> F["Musnahkan"]
+```
+
+## Contoh klasifikasi
+
+| Kelas | Contoh | Arah kontrol |
+|---|---|---|
+| Publik | Informasi yang disetujui untuk publik | Integritas dan publikasi resmi |
+| Internal | Prosedur kerja umum | Akses pegawai dan pembagian terbatas |
+| Rahasia | Data personal atau kontrak | Akses minimum, enkripsi, logging |
+| Sangat terbatas | Kredensial atau kunci penting | Pemisahan tugas dan kontrol khusus |
+
+::: {.activity-box}
+### Aktivitas kelas · Peta aliran data
+
+Petakan data pada layanan beasiswa fiktif. Tentukan tujuan pengumpulan, lokasi penyimpanan, akses, transfer, retensi, dan pemusnahannya. Identifikasi pengumpulan atau penyimpanan yang tidak diperlukan.
+:::
+
+## Prinsip privasi
+
+Kumpulkan data seperlunya, gunakan untuk tujuan yang jelas, batasi retensi, jaga akurasi, berikan transparansi yang sesuai, dan lindungi hak pihak yang datanya diproses.

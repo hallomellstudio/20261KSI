@@ -1,0 +1,29 @@
+---
+title: "Rubrik Penilaian"
+description: "Kriteria penilaian proyek akhir Keamanan Sistem Informasi."
+---
+
+## Rubrik proyek akhir
+
+| Kriteria | Bobot | Sangat baik | Cukup | Perlu perbaikan |
+|---|---:|---|---|---|
+| Ruang lingkup dan etika | 10% | Batas, izin, sensitivitas, dan keterbatasan jelas | Ada bagian yang belum rinci | Izin atau batas praktik tidak jelas |
+| Aset dan konteks | 10% | Aset, pemilik, data, dan dependensi konsisten | Cukup lengkap | Banyak aset penting terlewat |
+| Analisis risiko | 20% | Skenario, bukti, dampak, dan prioritas kuat | Logis tetapi bukti terbatas | Hanya berupa daftar ancaman/kelemahan |
+| Evaluasi kontrol | 15% | Desain dan efektivitas kontrol dinilai dengan bukti | Penilaian cukup | Klaim kontrol tidak dapat ditelusuri |
+| Rekomendasi | 20% | Proporsional, berlapis, dan terkait langsung dengan risiko | Sebagian besar relevan | Umum atau tidak menjawab risiko |
+| Respons dan pemulihan | 10% | Peran, deteksi, respons, RTO/RPO, dan pembelajaran jelas | Ada elemen yang kurang | Sulit dijalankan atau diuji |
+| Peta jalan dan KPI | 10% | Prioritas, pemilik, waktu, ukuran, dan residual risk jelas | Rencana cukup | Tidak operasional |
+| Komunikasi | 5% | Ringkas, akurat, dan tidak membocorkan data sensitif | Cukup dipahami | Sulit diikuti atau tidak aman dipublikasikan |
+| **Total** | **100%** | | | |
+
+## Skala
+
+- **4 — Sangat baik:** tepat, lengkap, aman, dan berbasis bukti.
+- **3 — Baik:** memenuhi tujuan dengan kekurangan kecil.
+- **2 — Cukup:** sebagian tujuan tercapai, tetapi ada celah penting.
+- **1 — Perlu perbaikan:** logika atau bukti belum memadai.
+- **0 — Tidak tersedia/tidak sesuai:** komponen tidak diserahkan atau melanggar batas proyek.
+
+$$\text{Nilai akhir}=\sum\left(\frac{\text{skor kriteria}}{4}\times\text{bobot}\right)$$
+

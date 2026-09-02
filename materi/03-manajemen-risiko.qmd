@@ -1,0 +1,42 @@
+---
+title: "03 · Manajemen Risiko"
+description: "Mengidentifikasi, menilai, menangani, dan memantau risiko keamanan."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu membuat *risk register* sederhana dan memilih respons risiko yang proporsional.
+
+## Alur penilaian
+
+```{mermaid}
+flowchart LR
+  A["Konteks & aset"] --> B["Ancaman & kerentanan"]
+  B --> C["Kemungkinan & dampak"]
+  C --> D["Prioritas"]
+  D --> E["Perlakuan risiko"]
+```
+
+Skor sederhana dapat digunakan untuk diskusi:
+
+$$R = K \times D$$
+
+dengan $K$ = kemungkinan dan $D$ = dampak. Angka bukan kebenaran mutlak; asumsi dan bukti harus tetap dicatat.
+
+## Pilihan perlakuan
+
+- **Mengurangi:** menambah atau memperbaiki kontrol.
+- **Menghindari:** menghentikan aktivitas sumber risiko.
+- **Memindahkan/berbagi:** mengalihkan sebagian konsekuensi melalui pihak lain.
+- **Menerima:** menyetujui risiko residual secara sadar dan terdokumentasi.
+
+::: {.activity-box}
+### Aktivitas kelas · Risk register
+
+Untuk sistem perpustakaan fiktif, isi kolom: aset, skenario risiko, kontrol saat ini, kemungkinan, dampak, pemilik, perlakuan, dan risiko residual. Prioritaskan tiga risiko tertinggi.
+:::
+
+## Cek pemahaman
+
+Mengapa daftar kerentanan belum sama dengan penilaian risiko? Apa yang membuat penerimaan risiko menjadi keputusan yang sah?
+

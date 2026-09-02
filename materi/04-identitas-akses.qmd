@@ -1,0 +1,34 @@
+---
+title: "04 · Identitas dan Kontrol Akses"
+description: "Mengelola identitas, autentikasi, otorisasi, dan siklus hidup akses."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu merancang kontrol akses berdasarkan peran, kebutuhan kerja, dan prinsip hak minimum.
+
+## Empat tahap
+
+1. **Identifikasi:** pengguna menyatakan identitas.
+2. **Autentikasi:** sistem memverifikasi identitas.
+3. **Otorisasi:** sistem menentukan tindakan yang diizinkan.
+4. **Akuntabilitas:** aktivitas penting dicatat dan ditinjau.
+
+### Prinsip utama
+
+- *Least privilege*: hanya hak minimum yang diperlukan.
+- *Need to know*: akses informasi sesuai kebutuhan kerja.
+- *Separation of duties*: keputusan berisiko tidak dikuasai satu pihak.
+- *MFA*: menggunakan faktor autentikasi berbeda.
+- *Joiner–mover–leaver*: akses mengikuti perubahan status pengguna.
+
+::: {.activity-box}
+### Aktivitas kelas · Matriks akses
+
+Buat matriks peran dan izin untuk sistem akademik fiktif. Tinjau konflik tugas, akun tidak aktif, akses istimewa, persetujuan, dan jadwal evaluasi berkala.
+:::
+
+## Cek pemahaman
+
+Mengapa kata sandi kuat saja tidak cukup? Apa risiko jika akses pegawai lama tidak segera dicabut?
+

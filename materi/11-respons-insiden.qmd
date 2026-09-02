@@ -1,0 +1,40 @@
+---
+title: "11 · Respons Insiden"
+description: "Menyiapkan koordinasi, pembatasan dampak, pemulihan, dan pembelajaran insiden."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu menyusun *playbook* respons berdasarkan skenario, peran, bukti, dan prioritas layanan.
+
+## Siklus respons
+
+```{mermaid}
+flowchart TD
+  A["Persiapan"] --> B["Deteksi & analisis"]
+  B --> C["Pembatasan dampak"]
+  C --> D["Perbaikan & pemulihan"]
+  D --> E["Pembelajaran"]
+  E --> A
+```
+
+## Isi playbook
+
+- kriteria aktivasi dan tingkat keparahan;
+- peran, jalur komunikasi, dan kewenangan;
+- langkah menjaga bukti dan catatan keputusan;
+- tindakan aman untuk membatasi dampak;
+- kriteria pemulihan dan validasi layanan;
+- komunikasi kepada pihak terkait;
+- evaluasi pascainsiden dan tindak lanjut.
+
+::: {.activity-box}
+### Aktivitas kelas · Tabletop exercise
+
+Gunakan skenario fiktif gangguan akun dan layanan. Setiap kelompok menerima pembaruan situasi dari dosen, lalu mencatat keputusan, alasan, pemilik, risiko, dan kebutuhan komunikasi. Tidak ada sistem nyata yang diuji.
+:::
+
+::: {.callout-warning title="Jaga bukti dan koordinasi"}
+Jangan mengubah atau menghapus artefak secara sembarangan. Ikuti prosedur organisasi, dokumentasikan tindakan, dan libatkan pihak yang berwenang.
+:::
+

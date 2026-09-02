@@ -1,0 +1,34 @@
+---
+title: "Tugas"
+description: "Instruksi tugas analisis keamanan yang aman dan berorientasi defensif."
+---
+
+## Tugas 1 · Peta aset dan risiko
+
+Gunakan kasus organisasi fiktif. Buat dokumen maksimal empat halaman yang berisi:
+
+1. batas sistem dan proses penting;
+2. daftar aset beserta pemiliknya;
+3. tujuan keamanan per aset;
+4. lima skenario risiko;
+5. kontrol yang sudah tersedia dan bukti yang masih diperlukan.
+
+## Tugas 2 · Rancangan kontrol
+
+Pilih satu skenario risiko dan susun rancangan kontrol berlapis yang mencakup manusia, proses, dan teknologi. Jelaskan fungsi pencegahan, deteksi, respons, serta pemulihan. Sertakan diagram tingkat tinggi dan risiko residual.
+
+## Tugas 3 · Playbook respons
+
+Buat *playbook* untuk satu insiden fiktif. Sertakan kriteria aktivasi, tingkat keparahan, peran, alur komunikasi, keputusan pembatasan dampak, kebutuhan bukti, pemulihan, dan evaluasi setelah kejadian.
+
+## Format pengumpulan
+
+- Gunakan nama berkas `KELAS_NIM_JENISTUGAS.pdf`.
+- Cantumkan sumber konsep, data, gambar, dan bantuan teknologi.
+- Jangan memasukkan kredensial, alamat sistem nyata, data personal, atau detail sensitif.
+- Gunakan hanya studi kasus dan lingkungan yang ditetapkan dosen.
+
+::: {.callout-important title="Tidak ada pengujian tanpa izin"}
+Tugas ini tidak meminta mahasiswa memindai, mengeksploitasi, mengakses, atau mengganggu sistem nyata. Jika suatu aktivitas teknis tidak tercantum dalam ruang lingkup laboratorium, aktivitas tersebut tidak dilakukan.
+:::
+

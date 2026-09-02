@@ -1,0 +1,33 @@
+---
+title: "05 · Dasar Kriptografi"
+description: "Memilih fungsi enkripsi, hashing, MAC, dan tanda tangan digital secara tepat."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu membedakan tujuan mekanisme kriptografi dan mengenali pentingnya pengelolaan kunci.
+
+## Peta mekanisme
+
+| Mekanisme | Tujuan umum | Hal penting |
+|---|---|---|
+| Enkripsi simetris | Menjaga kerahasiaan data | Kunci yang sama harus terlindungi |
+| Enkripsi asimetris | Pertukaran aman dan identitas | Lebih lambat; memakai pasangan kunci |
+| Hash | Sidik data satu arah | Bukan enkripsi dan tidak dapat “dibuka” |
+| MAC | Integritas dan autentisitas pesan | Memerlukan kunci bersama |
+| Tanda tangan digital | Integritas, asal, dan verifikasi | Kunci privat harus dijaga ketat |
+
+::: {.activity-box}
+### Aktivitas kelas · Pilih mekanisme
+
+Untuk lima kebutuhan—penyimpanan kata sandi, pertukaran dokumen, pemeriksaan berkas, koneksi web, dan persetujuan elektronik—pilih tujuan keamanan serta mekanisme yang sesuai. Jelaskan asumsi dan pengelolaan kuncinya tanpa membuat implementasi kriptografi sendiri.
+:::
+
+::: {.callout-warning title="Kesalahan umum"}
+Jangan merancang algoritma kriptografi sendiri atau menyimpan kunci bersama data yang dilindunginya. Gunakan pustaka dan layanan yang telah ditinjau, dengan konfigurasi yang didukung.
+:::
+
+## Cek pemahaman
+
+Mengapa hashing tidak sama dengan enkripsi? Apa akibatnya jika kunci tidak dapat dipulihkan atau telah terekspos?
+

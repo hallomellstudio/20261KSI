@@ -1,0 +1,36 @@
+---
+title: "06 · Keamanan Jaringan"
+description: "Merancang segmentasi, kontrol lalu lintas, akses jarak jauh, dan visibilitas jaringan."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu menyusun rancangan jaringan defensif berdasarkan zona kepercayaan dan kebutuhan komunikasi.
+
+## Prinsip desain
+
+- Pisahkan sistem berdasarkan sensitivitas dan fungsi.
+- Izinkan hanya komunikasi yang diperlukan.
+- Lindungi jalur administrasi dan akses jarak jauh.
+- Catat peristiwa penting pada titik pengendalian.
+- Tinjau aturan secara berkala dan hapus yang tidak lagi dibutuhkan.
+
+```{mermaid}
+flowchart LR
+  A["Pengguna"] --> B["Zona aplikasi"]
+  B --> C["Zona data"]
+  D["Admin berwenang"] --> E["Jalur administrasi"]
+  E --> B
+  E --> C
+```
+
+::: {.activity-box}
+### Aktivitas kelas · Rancangan segmentasi
+
+Gunakan arsitektur fiktif yang disediakan dosen. Kelompokkan layanan ke dalam zona, tentukan komunikasi yang diperlukan, lalu jelaskan kontrol, pencatatan, dan pemilik setiap aturan.
+:::
+
+## Batas aman
+
+Latihan berfokus pada diagram, aturan defensif, dan analisis konfigurasi contoh. Jangan memindai atau menguji jaringan nyata di luar lingkungan laboratorium yang diberi izin.
+

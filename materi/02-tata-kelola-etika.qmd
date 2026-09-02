@@ -1,0 +1,36 @@
+---
+title: "02 · Tata Kelola, Etika, dan Kebijakan"
+description: "Menghubungkan tanggung jawab organisasi, kebijakan, kepatuhan, dan perilaku etis."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu menjelaskan pembagian tanggung jawab keamanan dan membedakan kebijakan, standar, prosedur, serta panduan.
+
+## Hirarki dokumen
+
+| Dokumen | Fungsi | Contoh |
+|---|---|---|
+| Kebijakan | Menyatakan arah dan kewajiban | Kebijakan kontrol akses |
+| Standar | Menetapkan persyaratan wajib | Standar konfigurasi perangkat |
+| Prosedur | Menjelaskan langkah kerja resmi | Prosedur pemulihan akun |
+| Panduan | Memberi rekomendasi | Panduan kerja jarak jauh |
+
+## Pembagian peran
+
+Manajemen menetapkan arah dan menerima risiko; pemilik aset menentukan kebutuhan; tim teknologi mengoperasikan kontrol; pengguna menaati kebijakan; fungsi audit memberi penilaian independen.
+
+::: {.activity-box}
+### Aktivitas kelas · Dilema keputusan
+
+Analisis kasus fiktif ketika tenggat bisnis bertentangan dengan persyaratan keamanan. Petakan kepentingan pihak terkait, risiko, kewenangan keputusan, dan cara menyampaikan keberatan secara profesional.
+:::
+
+::: {.callout-important title="Prinsip praktik"}
+Kemampuan teknis tidak sama dengan izin. Pengujian hanya sah bila ruang lingkup, waktu, target, dan cara pelaporan telah disetujui secara eksplisit.
+:::
+
+## Cek pemahaman
+
+Siapa yang seharusnya menerima risiko? Mengapa kepatuhan terhadap aturan belum tentu berarti sistem sudah aman?
+

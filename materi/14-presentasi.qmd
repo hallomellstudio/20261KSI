@@ -1,0 +1,34 @@
+---
+title: "14 · Presentasi Rekomendasi"
+description: "Menyampaikan postur risiko dan prioritas peningkatan tanpa membuka informasi sensitif."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu menjelaskan temuan, risiko, kontrol, dan peta jalan kepada pemangku kepentingan nonteknis.
+
+## Alur presentasi
+
+1. Konteks sistem, aset, dan ruang lingkup.
+2. Metode serta batas pengumpulan bukti.
+3. Risiko prioritas dan kontrol yang tersedia.
+4. Kesenjangan utama dan dampak bisnis.
+5. Rekomendasi jangka pendek, menengah, dan panjang.
+6. Pemilik, sumber daya, indikator, dan risiko residual.
+
+::: {.activity-box}
+### Aktivitas kelas · Briefing keamanan
+
+Sampaikan rekomendasi dalam delapan menit. Gunakan satu peta arsitektur tingkat tinggi, satu *risk register* ringkas, dan satu peta jalan. Hilangkan alamat sistem, kredensial, data personal, serta detail sensitif dari materi presentasi.
+:::
+
+## Pertanyaan yang perlu siap dijawab
+
+- Bukti apa yang mendukung tingkat risiko?
+- Mengapa kontrol ini diprioritaskan?
+- Siapa pemilik tindakan dan bagaimana keberhasilannya diukur?
+- Apa konsekuensi bisnis dan operasionalnya?
+- Risiko apa yang tetap ada setelah perbaikan?
+
+Lihat [rubrik proyek](../rubrik.qmd) sebelum presentasi.
+

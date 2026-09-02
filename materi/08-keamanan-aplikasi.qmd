@@ -1,0 +1,37 @@
+---
+title: "08 · Keamanan Aplikasi dan SDLC"
+description: "Memasukkan keamanan ke seluruh siklus hidup pengembangan sistem."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu membuat *threat model* sederhana dan menghubungkan risiko aplikasi dengan kontrol sepanjang SDLC.
+
+## Keamanan sepanjang siklus hidup
+
+| Tahap | Pertanyaan keamanan |
+|---|---|
+| Kebutuhan | Data dan fungsi apa yang sensitif? |
+| Desain | Di mana batas kepercayaan dan jalur data? |
+| Implementasi | Bagaimana input, error, rahasia, dan dependensi dikelola? |
+| Verifikasi | Bukti apa yang menunjukkan kontrol bekerja? |
+| Rilis | Apakah konfigurasi produksi aman dan dapat dipulihkan? |
+| Operasi | Bagaimana pembaruan, logging, dan respons dilakukan? |
+
+## Threat modeling defensif
+
+1. Gambarkan komponen, aktor, data, dan batas kepercayaan.
+2. Tentukan skenario kerugian yang relevan.
+3. Nilai kontrol pencegahan, deteksi, dan pemulihan.
+4. Prioritaskan perubahan dan pemilik tindak lanjut.
+
+::: {.activity-box}
+### Aktivitas kelas · Diagram aliran data
+
+Gunakan aplikasi pemesanan fiktif. Gambarkan pengguna, aplikasi, layanan autentikasi, dan basis data. Tandai data sensitif serta batas kepercayaan, lalu usulkan kontrol pada setiap perpindahan data.
+:::
+
+::: {.callout-note title="Fokus pembelajaran"}
+Latihan membahas desain dan mitigasi, bukan eksploitasi aplikasi nyata. Pengujian teknis hanya dilakukan pada laboratorium yang disediakan dan diberi izin.
+:::
+

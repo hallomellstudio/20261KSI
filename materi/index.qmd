@@ -1,0 +1,121 @@
+---
+title: "Peta Materi"
+description: "Empat belas pertemuan untuk memahami keamanan sistem informasi secara defensif dan bertanggung jawab."
+toc: false
+---
+
+Setiap materi memuat tujuan belajar, konsep inti, aktivitas kelas yang aman, dan cek pemahaman.
+
+## Fondasi dan tata kelola
+
+::: {.week-grid}
+::: {.week-card}
+### 01 · Fondasi keamanan
+
+Aset, tujuan keamanan, ancaman, dan kerentanan.
+
+[Buka materi →](01-fondasi.qmd)
+:::
+::: {.week-card}
+### 02 · Tata kelola dan etika
+
+Peran, kebijakan, kepatuhan, dan praktik bertanggung jawab.
+
+[Buka materi →](02-tata-kelola-etika.qmd)
+:::
+::: {.week-card}
+### 03 · Manajemen risiko
+
+Menilai dan menangani risiko secara proporsional.
+
+[Buka materi →](03-manajemen-risiko.qmd)
+:::
+:::
+
+## Kontrol perlindungan
+
+::: {.week-grid}
+::: {.week-card}
+### 04 · Identitas dan akses
+
+Autentikasi, otorisasi, dan prinsip hak minimum.
+
+[Buka materi →](04-identitas-akses.qmd)
+:::
+::: {.week-card}
+### 05 · Kriptografi
+
+Enkripsi, hashing, tanda tangan digital, dan pengelolaan kunci.
+
+[Buka materi →](05-kriptografi.qmd)
+:::
+::: {.week-card}
+### 06 · Keamanan jaringan
+
+Segmentasi, kontrol lalu lintas, dan akses jarak jauh.
+
+[Buka materi →](06-keamanan-jaringan.qmd)
+:::
+::: {.week-card}
+### 07 · Hardening
+
+Baseline aman, patching, dan pengelolaan kerentanan.
+
+[Buka materi →](07-hardening.qmd)
+:::
+::: {.week-card}
+### 08 · Keamanan aplikasi
+
+Keamanan sejak kebutuhan hingga operasi.
+
+[Buka materi →](08-keamanan-aplikasi.qmd)
+:::
+::: {.week-card}
+### 09 · Keamanan data
+
+Klasifikasi, privasi, retensi, dan pemusnahan.
+
+[Buka materi →](09-keamanan-data.qmd)
+:::
+:::
+
+## Deteksi, respons, dan evaluasi
+
+::: {.week-grid}
+::: {.week-card}
+### 10 · Monitoring
+
+Log, indikator, deteksi, dan triase defensif.
+
+[Buka materi →](10-monitoring.qmd)
+:::
+::: {.week-card}
+### 11 · Respons insiden
+
+Persiapan, pembatasan dampak, pemulihan, dan pembelajaran.
+
+[Buka materi →](11-respons-insiden.qmd)
+:::
+::: {.week-card}
+### 12 · Kelangsungan bisnis
+
+BIA, RTO, RPO, backup, dan pemulihan layanan.
+
+[Buka materi →](12-kelangsungan-bisnis.qmd)
+:::
+::: {.week-card}
+### 13 · Audit dan asesmen
+
+Bukti, temuan, risiko, dan tindak lanjut.
+
+[Buka materi →](13-audit-assessment.qmd)
+:::
+::: {.week-card}
+### 14 · Presentasi
+
+Mengomunikasikan temuan tanpa membuka informasi sensitif.
+
+[Buka materi →](14-presentasi.qmd)
+:::
+:::
+

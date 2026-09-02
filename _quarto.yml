@@ -1,0 +1,93 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "materi/*.qmd"
+
+lang: id
+
+website:
+  title: "Keamanan Sistem Informasi"
+  description: "Ruang belajar untuk memahami risiko dan melindungi sistem informasi secara bertanggung jawab."
+  site-url: "https://USERNAME.github.io/NAMA-REPOSITORY/"
+  repo-url: "https://github.com/USERNAME/NAMA-REPOSITORY"
+  repo-actions: [edit, issue]
+  page-navigation: true
+  back-to-top-navigation: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true
+    background: primary
+    left:
+      - text: "Beranda"
+        href: index.qmd
+      - text: "Perkuliahan"
+        href: silabus.qmd
+      - text: "Materi"
+        href: materi/index.qmd
+      - text: "Penilaian"
+        menu:
+          - text: "Tugas"
+            href: tugas.qmd
+          - text: "Proyek Akhir"
+            href: proyek.qmd
+          - text: "Rubrik"
+            href: rubrik.qmd
+      - text: "Glosarium"
+        href: glosarium.qmd
+    right:
+      - icon: github
+        href: "https://github.com/USERNAME/NAMA-REPOSITORY"
+        aria-label: "Repositori GitHub"
+  sidebar:
+    - title: "Materi"
+      style: docked
+      collapse-level: 1
+      contents:
+        - materi/index.qmd
+        - section: "Fondasi & Tata Kelola"
+          contents:
+            - materi/01-fondasi.qmd
+            - materi/02-tata-kelola-etika.qmd
+            - materi/03-manajemen-risiko.qmd
+        - section: "Kontrol Perlindungan"
+          contents:
+            - materi/04-identitas-akses.qmd
+            - materi/05-kriptografi.qmd
+            - materi/06-keamanan-jaringan.qmd
+            - materi/07-hardening.qmd
+            - materi/08-keamanan-aplikasi.qmd
+            - materi/09-keamanan-data.qmd
+        - section: "Deteksi, Respons & Evaluasi"
+          contents:
+            - materi/10-monitoring.qmd
+            - materi/11-respons-insiden.qmd
+            - materi/12-kelangsungan-bisnis.qmd
+            - materi/13-audit-assessment.qmd
+            - materi/14-presentasi.qmd
+  page-footer:
+    left: "Materi kuliah Keamanan Sistem Informasi"
+    right: "Dibangun dengan [Quarto](https://quarto.org/)"
+  open-graph: true
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+

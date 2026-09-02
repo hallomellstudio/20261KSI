@@ -1,0 +1,34 @@
+---
+title: "10 · Logging, Monitoring, dan Deteksi"
+description: "Membangun visibilitas keamanan dan melakukan triase peringatan secara defensif."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu menentukan peristiwa yang perlu dicatat dan merancang alur deteksi serta eskalasi.
+
+## Log yang berguna
+
+Catatan sebaiknya menjawab: **apa** yang terjadi, **kapan**, **di mana**, **oleh siapa**, **hasilnya**, dan **konteks** yang diperlukan. Hindari mencatat kata sandi, token, isi rahasia, atau data personal yang tidak diperlukan.
+
+## Dari peristiwa ke tindakan
+
+| Tahap | Keluaran |
+|---|---|
+| Kumpulkan | Log dari sumber penting |
+| Normalisasi | Waktu dan struktur konsisten |
+| Korelasi | Hubungan antarkeadaan/peristiwa |
+| Deteksi | Peringatan berdasarkan aturan atau pola |
+| Triase | Prioritas, konteks, dan kemungkinan dampak |
+| Eskalasi | Tindak lanjut oleh peran yang tepat |
+
+::: {.activity-box}
+### Aktivitas kelas · Rancang use case deteksi
+
+Dari log sintetis, definisikan tiga peristiwa penting seperti perubahan hak akses atau kegagalan autentikasi berulang. Tentukan sumber data, kondisi peringatan, konteks triase, tingkat prioritas, dan pemilik respons.
+:::
+
+## Cek pemahaman
+
+Mengapa mengumpulkan semua log belum tentu meningkatkan keamanan? Apa dampak positif palsu dan negatif palsu terhadap operasi?
+

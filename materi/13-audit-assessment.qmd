@@ -1,0 +1,32 @@
+---
+title: "13 · Audit dan Asesmen Keamanan"
+description: "Mengumpulkan bukti, menilai kontrol, dan menulis temuan yang dapat ditindaklanjuti."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu merencanakan asesmen terbatas, mengevaluasi bukti, dan menulis rekomendasi berbasis risiko.
+
+## Struktur asesmen
+
+1. Tetapkan tujuan, kriteria, ruang lingkup, dan kewenangan.
+2. Identifikasi kontrol dan bukti yang diperlukan.
+3. Kumpulkan bukti melalui metode yang disetujui.
+4. Bandingkan kondisi dengan kriteria.
+5. Validasi temuan bersama pemilik kontrol.
+6. Prioritaskan rekomendasi dan tindak lanjut.
+
+## Anatomi temuan
+
+> **Kondisi** yang diamati berbeda dari **kriteria**, disebabkan atau dipengaruhi oleh **akar masalah**, sehingga menimbulkan **risiko/dampak**. Rekomendasinya adalah **perbaikan yang proporsional**.
+
+::: {.activity-box}
+### Aktivitas kelas · Review bukti
+
+Tinjau paket bukti sintetis berisi kebijakan, matriks akses, ringkasan log, dan catatan backup. Nilai kecukupan bukti, tulis dua temuan, lalu minta kelompok lain memeriksa kejelasan dan kewajarannya.
+:::
+
+## Prinsip komunikasi
+
+Pisahkan fakta, interpretasi, dan rekomendasi. Hindari bahasa menyalahkan. Batasi distribusi detail sensitif dan berikan waktu perbaikan yang realistis.
+

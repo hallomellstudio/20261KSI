@@ -1,0 +1,37 @@
+---
+title: "01 · Fondasi Keamanan Informasi"
+description: "Memahami aset, tujuan keamanan, ancaman, kerentanan, dan kontrol."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu menjelaskan konsep dasar keamanan informasi dan menentukan kebutuhan keamanan sebuah aset berdasarkan konteks penggunaannya.
+
+## Konsep inti
+
+| Konsep | Pertanyaan utama |
+|---|---|
+| Aset | Apa yang bernilai dan perlu dilindungi? |
+| Ancaman | Peristiwa apa yang dapat menimbulkan kerugian? |
+| Kerentanan | Kelemahan apa yang dapat membuat ancaman berhasil? |
+| Risiko | Seberapa mungkin dan besar dampaknya? |
+| Kontrol | Tindakan apa yang mengurangi risiko? |
+
+### Tujuan keamanan
+
+- **Kerahasiaan:** informasi hanya diakses pihak berwenang.
+- **Integritas:** informasi dan sistem tetap akurat serta tidak diubah tanpa izin.
+- **Ketersediaan:** informasi dan layanan tersedia ketika dibutuhkan.
+- **Autentisitas:** identitas dan asal informasi dapat dipercaya.
+- **Akuntabilitas:** tindakan dapat ditelusuri kepada pihak yang bertanggung jawab.
+
+::: {.activity-box}
+### Aktivitas kelas · Peta aset
+
+Gunakan studi kasus sistem akademik fiktif. Identifikasi data, layanan, perangkat, manusia, dan reputasi sebagai aset. Nilai tujuan keamanan mana yang paling penting untuk setiap aset dan jelaskan alasannya.
+:::
+
+## Cek pemahaman
+
+Mengapa keamanan sempurna tidak realistis? Mengapa kontrol yang sama dapat tepat untuk satu aset tetapi berlebihan untuk aset lain?
+

@@ -1,0 +1,79 @@
+---
+title: "Rencana Perkuliahan"
+description: "Tujuan, strategi belajar, jadwal, dan penilaian mata kuliah Keamanan Sistem Informasi."
+---
+
+## Identitas mata kuliah
+
+| Komponen | Isi |
+|---|---|
+| Program studi | [NAMA PROGRAM STUDI] |
+| Kode mata kuliah | [KODE] |
+| Bobot | [3 SKS] |
+| Semester | [SEMESTER/TAHUN AKADEMIK] |
+| Dosen | [NAMA DOSEN] |
+| Kontak | [EMAIL / LMS] |
+| Prasyarat | [MATA KULIAH PRASYARAT] |
+
+## Deskripsi
+
+Mata kuliah ini membahas perlindungan sistem informasi melalui pengelolaan risiko dan penerapan kontrol pada manusia, proses, data, aplikasi, perangkat, dan jaringan. Mahasiswa belajar melalui studi kasus, analisis artefak, latihan konfigurasi defensif dalam lingkungan berizin, serta proyek penilaian keamanan.
+
+## Capaian pembelajaran
+
+Mahasiswa mampu:
+
+1. **Menjelaskan** tujuan, prinsip, etika, dan tata kelola keamanan informasi.
+2. **Menganalisis** aset, ancaman, kerentanan, dampak, dan kemungkinan risiko.
+3. **Merancang** kontrol identitas, jaringan, aplikasi, data, dan operasi yang sesuai konteks.
+4. **Menyusun** rencana pemantauan, respons insiden, dan kelangsungan layanan.
+5. **Mengevaluasi** postur keamanan serta menyampaikan rekomendasi secara bertanggung jawab.
+
+## Pola pembelajaran
+
+```{mermaid}
+flowchart LR
+  A["Kasus"] --> B["Konsep"]
+  B --> C["Analisis aman"]
+  C --> D["Rancangan kontrol"]
+  D --> E["Refleksi"]
+```
+
+## Jadwal 14 pertemuan
+
+| Pekan | Pokok bahasan | Produk belajar |
+|---:|---|---|
+| 1 | Fondasi keamanan informasi | Peta aset dan tujuan keamanan |
+| 2 | Tata kelola, etika, dan kebijakan | Analisis tanggung jawab |
+| 3 | Manajemen risiko | *Risk register* awal |
+| 4 | Identitas dan kontrol akses | Matriks hak akses |
+| 5 | Dasar kriptografi | Peta penggunaan kriptografi |
+| 6 | Keamanan jaringan | Rancangan segmentasi defensif |
+| 7 | *Hardening* dan manajemen kerentanan | Baseline konfigurasi aman |
+| 8 | Keamanan aplikasi dan SDLC | *Threat model* aplikasi |
+| 9 | Keamanan data dan privasi | Klasifikasi serta siklus hidup data |
+| 10 | Logging, monitoring, dan deteksi | Rencana pemantauan |
+| 11 | Respons insiden | *Incident response playbook* |
+| 12 | Kelangsungan bisnis dan pemulihan | BIA dan strategi pemulihan |
+| 13 | Audit dan asesmen keamanan | Temuan dan rencana tindak lanjut |
+| 14 | Presentasi proyek | Rekomendasi peningkatan keamanan |
+
+## Penilaian
+
+| Komponen | Bobot |
+|---|---:|
+| Partisipasi dan latihan aman | 15% |
+| Tugas analisis individu | 20% |
+| Ujian/analisis kasus tengah semester | 25% |
+| Proyek akhir kelompok | 35% |
+| Refleksi etika | 5% |
+| **Total** | **100%** |
+
+## Aturan keselamatan dan etika
+
+- Praktik hanya pada sistem dan data yang disediakan atau diizinkan dosen.
+- Dilarang mencoba teknik pada target publik, perangkat orang lain, atau jaringan kampus tanpa izin tertulis.
+- Rahasiakan kredensial dan informasi sensitif; gunakan data sintetis saat presentasi.
+- Laporkan temuan melalui jalur yang ditetapkan, bukan melalui publikasi terbuka.
+- Mahasiswa wajib dapat menjelaskan seluruh artefak dan sumber bantuan yang digunakan.
+

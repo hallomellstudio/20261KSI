@@ -1,0 +1,31 @@
+---
+title: "Glosarium"
+description: "Istilah penting dalam keamanan sistem informasi."
+---
+
+| Istilah | Makna ringkas |
+|---|---|
+| Akuntabilitas | Kemampuan menelusuri tindakan kepada pihak yang bertanggung jawab |
+| Ancaman | Keadaan atau peristiwa yang berpotensi menimbulkan kerugian |
+| Aset | Sesuatu yang bernilai bagi organisasi |
+| Autentikasi | Verifikasi identitas yang diklaim |
+| Otorisasi | Penentuan tindakan yang boleh dilakukan |
+| BIA | Analisis dampak gangguan terhadap layanan/organisasi |
+| Enkripsi | Transformasi data untuk menjaga kerahasiaannya |
+| Hash | Ringkasan satu arah untuk mendukung pemeriksaan integritas |
+| Hardening | Pengurangan permukaan risiko melalui konfigurasi aman |
+| Insiden | Kejadian yang mengganggu atau mengancam tujuan keamanan |
+| Integritas | Keakuratan dan keutuhan informasi atau sistem |
+| Ketersediaan | Kemampuan mengakses layanan/informasi saat dibutuhkan |
+| Kerahasiaan | Pembatasan akses kepada pihak berwenang |
+| Kerentanan | Kelemahan yang dapat berkontribusi pada risiko |
+| Kontrol | Tindakan yang mengubah risiko |
+| Least privilege | Pemberian hak minimum sesuai kebutuhan |
+| MFA | Autentikasi dengan lebih dari satu jenis faktor |
+| RPO | Batas kehilangan data yang dapat diterima |
+| RTO | Target waktu pemulihan layanan |
+| Risiko | Pengaruh ketidakpastian terhadap tujuan |
+| Risiko residual | Risiko yang tersisa setelah kontrol diterapkan |
+| Segmentasi | Pemisahan jaringan/sistem berdasarkan fungsi dan kepercayaan |
+| Threat model | Representasi aset, aliran, ancaman, dan mitigasi pada desain |
+

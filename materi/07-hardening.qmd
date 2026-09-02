@@ -1,0 +1,37 @@
+---
+title: "07 · Hardening dan Manajemen Kerentanan"
+description: "Mengurangi permukaan serangan melalui baseline aman dan perbaikan terkelola."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu membuat baseline konfigurasi aman dan memprioritaskan perbaikan kerentanan berdasarkan risiko.
+
+## Siklus pengelolaan
+
+1. Inventarisasi aset dan pemiliknya.
+2. Tetapkan baseline konfigurasi.
+3. Identifikasi penyimpangan dan kerentanan.
+4. Nilai konteks, eksposur, dan dampak bisnis.
+5. Uji serta terapkan perbaikan.
+6. Verifikasi dan dokumentasikan hasil.
+
+## Contoh baseline defensif
+
+- menonaktifkan layanan yang tidak diperlukan;
+- mengganti konfigurasi bawaan yang tidak aman;
+- menerapkan pembaruan yang telah diuji;
+- membatasi hak administratif;
+- mengaktifkan pencatatan dan sinkronisasi waktu;
+- menjaga salinan konfigurasi serta prosedur pemulihan.
+
+::: {.activity-box}
+### Aktivitas kelas · Review konfigurasi
+
+Tinjau lembar konfigurasi sintetis. Tandai penyimpangan dari baseline, jelaskan risikonya, tentukan prioritas perbaikan, dan rencanakan verifikasi setelah perubahan.
+:::
+
+## Cek pemahaman
+
+Mengapa skor teknis kerentanan tidak boleh menjadi satu-satunya dasar prioritas? Mengapa perubahan keamanan perlu diuji dan memiliki rencana pemulihan?
+

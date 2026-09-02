@@ -1,0 +1,32 @@
+---
+title: "12 · Kelangsungan Bisnis dan Pemulihan"
+description: "Menentukan prioritas layanan, target pemulihan, backup, dan strategi kesinambungan."
+---
+
+## Tujuan belajar
+
+Mahasiswa mampu melakukan *business impact analysis* sederhana dan menyusun strategi pemulihan yang dapat diuji.
+
+## Ukuran penting
+
+- **RTO:** target waktu pemulihan layanan.
+- **RPO:** batas kehilangan data yang dapat diterima, dinyatakan sebagai waktu.
+- **MTPD:** durasi maksimum gangguan sebelum dampaknya tidak dapat diterima.
+
+| Pertanyaan BIA | Contoh keluaran |
+|---|---|
+| Layanan apa yang kritis? | Sistem registrasi |
+| Kapan layanan paling dibutuhkan? | Masa pengisian rencana studi |
+| Ketergantungan apa yang diperlukan? | Identitas, jaringan, basis data, petugas |
+| Apa dampak gangguan? | Akademik, operasional, reputasi, kepatuhan |
+
+::: {.activity-box}
+### Aktivitas kelas · Prioritas pemulihan
+
+Untuk empat layanan fiktif, tetapkan prioritas, RTO, RPO, dependensi, strategi alternatif, dan bukti pengujian. Jelaskan trade-off antara kebutuhan dan sumber daya.
+:::
+
+## Backup yang bermakna
+
+Backup harus terpisah, terlindungi, dipantau, dan diuji melalui pemulihan. Keberhasilan pencadangan tidak sama dengan keberhasilan pemulihan.
+
